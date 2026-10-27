@@ -1,0 +1,141 @@
+query,label
+What is RAG?,simple
+Define RAG.,simple
+Who created RAG?,simple
+Give a short definition of RAG.,simple
+What does RAG stand for?,simple
+How does RAG improve retrieval quality?,moderate
+Explain the main steps of RAG.,moderate
+What are the pros and cons of RAG?,moderate
+How do I set up RAG for a small project?,moderate
+Why is RAG used in search pipelines?,moderate
+Compare RAG and fine-tuning and justify which is better for multi-hop legal question answering under latency limits.,difficult
+"Design an evaluation framework for RAG combined with fine-tuning, covering failure modes and cost tradeoffs.",difficult
+"Analyze how RAG interacts with vector databases when evidence conflicts, and propose mitigations.",difficult
+Synthesize recent research on RAG versus chunking and recommend an architecture.,difficult
+What is vector databases?,simple
+Define vector databases.,simple
+Who created vector databases?,simple
+Give a short definition of vector databases.,simple
+What does vector databases stand for?,simple
+How does vector databases improve retrieval quality?,moderate
+Explain the main steps of vector databases.,moderate
+What are the pros and cons of vector databases?,moderate
+How do I set up vector databases for a small project?,moderate
+Why is vector databases used in search pipelines?,moderate
+Compare vector databases and query expansion and justify which is better for multi-hop legal question answering under latency limits.,difficult
+"Design an evaluation framework for vector databases combined with knowledge graphs, covering failure modes and cost tradeoffs.",difficult
+"Analyze how vector databases interacts with fine-tuning when evidence conflicts, and propose mitigations.",difficult
+Synthesize recent research on vector databases versus chunking and recommend an architecture.,difficult
+What is BM25?,simple
+Define BM25.,simple
+Who created BM25?,simple
+Give a short definition of BM25.,simple
+What does BM25 stand for?,simple
+How does BM25 improve retrieval quality?,moderate
+Explain the main steps of BM25.,moderate
+What are the pros and cons of BM25?,moderate
+How do I set up BM25 for a small project?,moderate
+Why is BM25 used in search pipelines?,moderate
+Compare BM25 and knowledge graphs and justify which is better for multi-hop legal question answering under latency limits.,difficult
+"Design an evaluation framework for BM25 combined with LLM agents, covering failure modes and cost tradeoffs.",difficult
+"Analyze how BM25 interacts with reranking when evidence conflicts, and propose mitigations.",difficult
+Synthesize recent research on BM25 versus query expansion and recommend an architecture.,difficult
+What is embeddings?,simple
+Define embeddings.,simple
+Who created embeddings?,simple
+Give a short definition of embeddings.,simple
+What does embeddings stand for?,simple
+How does embeddings improve retrieval quality?,moderate
+Explain the main steps of embeddings.,moderate
+What are the pros and cons of embeddings?,moderate
+How do I set up embeddings for a small project?,moderate
+Why is embeddings used in search pipelines?,moderate
+Compare embeddings and BM25 and justify which is better for multi-hop legal question answering under latency limits.,difficult
+"Design an evaluation framework for embeddings combined with chunking, covering failure modes and cost tradeoffs.",difficult
+"Analyze how embeddings interacts with BM25 when evidence conflicts, and propose mitigations.",difficult
+Synthesize recent research on embeddings versus vector databases and recommend an architecture.,difficult
+What is reranking?,simple
+Define reranking.,simple
+Who created reranking?,simple
+Give a short definition of reranking.,simple
+What does reranking stand for?,simple
+How does reranking improve retrieval quality?,moderate
+Explain the main steps of reranking.,moderate
+What are the pros and cons of reranking?,moderate
+How do I set up reranking for a small project?,moderate
+Why is reranking used in search pipelines?,moderate
+Compare reranking and chunking and justify which is better for multi-hop legal question answering under latency limits.,difficult
+"Design an evaluation framework for reranking combined with query expansion, covering failure modes and cost tradeoffs.",difficult
+"Analyze how reranking interacts with BM25 when evidence conflicts, and propose mitigations.",difficult
+Synthesize recent research on reranking versus chunking and recommend an architecture.,difficult
+What is chunking?,simple
+Define chunking.,simple
+Who created chunking?,simple
+Give a short definition of chunking.,simple
+What does chunking stand for?,simple
+How does chunking improve retrieval quality?,moderate
+Explain the main steps of chunking.,moderate
+What are the pros and cons of chunking?,moderate
+How do I set up chunking for a small project?,moderate
+Why is chunking used in search pipelines?,moderate
+Compare chunking and vector databases and justify which is better for multi-hop legal question answering under latency limits.,difficult
+"Design an evaluation framework for chunking combined with vector databases, covering failure modes and cost tradeoffs.",difficult
+"Analyze how chunking interacts with LLM agents when evidence conflicts, and propose mitigations.",difficult
+Synthesize recent research on chunking versus knowledge graphs and recommend an architecture.,difficult
+What is LLM agents?,simple
+Define LLM agents.,simple
+Who created LLM agents?,simple
+Give a short definition of LLM agents.,simple
+What does LLM agents stand for?,simple
+How does LLM agents improve retrieval quality?,moderate
+Explain the main steps of LLM agents.,moderate
+What are the pros and cons of LLM agents?,moderate
+How do I set up LLM agents for a small project?,moderate
+Why is LLM agents used in search pipelines?,moderate
+Compare LLM agents and query expansion and justify which is better for multi-hop legal question answering under latency limits.,difficult
+"Design an evaluation framework for LLM agents combined with vector databases, covering failure modes and cost tradeoffs.",difficult
+"Analyze how LLM agents interacts with chunking when evidence conflicts, and propose mitigations.",difficult
+Synthesize recent research on LLM agents versus fine-tuning and recommend an architecture.,difficult
+What is fine-tuning?,simple
+Define fine-tuning.,simple
+Who created fine-tuning?,simple
+Give a short definition of fine-tuning.,simple
+What does fine-tuning stand for?,simple
+How does fine-tuning improve retrieval quality?,moderate
+Explain the main steps of fine-tuning.,moderate
+What are the pros and cons of fine-tuning?,moderate
+How do I set up fine-tuning for a small project?,moderate
+Why is fine-tuning used in search pipelines?,moderate
+Compare fine-tuning and chunking and justify which is better for multi-hop legal question answering under latency limits.,difficult
+"Design an evaluation framework for fine-tuning combined with embeddings, covering failure modes and cost tradeoffs.",difficult
+"Analyze how fine-tuning interacts with query expansion when evidence conflicts, and propose mitigations.",difficult
+Synthesize recent research on fine-tuning versus knowledge graphs and recommend an architecture.,difficult
+What is knowledge graphs?,simple
+Define knowledge graphs.,simple
+Who created knowledge graphs?,simple
+Give a short definition of knowledge graphs.,simple
+What does knowledge graphs stand for?,simple
+How does knowledge graphs improve retrieval quality?,moderate
+Explain the main steps of knowledge graphs.,moderate
+What are the pros and cons of knowledge graphs?,moderate
+How do I set up knowledge graphs for a small project?,moderate
+Why is knowledge graphs used in search pipelines?,moderate
+Compare knowledge graphs and fine-tuning and justify which is better for multi-hop legal question answering under latency limits.,difficult
+"Design an evaluation framework for knowledge graphs combined with query expansion, covering failure modes and cost tradeoffs.",difficult
+"Analyze how knowledge graphs interacts with reranking when evidence conflicts, and propose mitigations.",difficult
+Synthesize recent research on knowledge graphs versus RAG and recommend an architecture.,difficult
+What is query expansion?,simple
+Define query expansion.,simple
+Who created query expansion?,simple
+Give a short definition of query expansion.,simple
+What does query expansion stand for?,simple
+How does query expansion improve retrieval quality?,moderate
+Explain the main steps of query expansion.,moderate
+What are the pros and cons of query expansion?,moderate
+How do I set up query expansion for a small project?,moderate
+Why is query expansion used in search pipelines?,moderate
+Compare query expansion and knowledge graphs and justify which is better for multi-hop legal question answering under latency limits.,difficult
+"Design an evaluation framework for query expansion combined with RAG, covering failure modes and cost tradeoffs.",difficult
+"Analyze how query expansion interacts with vector databases when evidence conflicts, and propose mitigations.",difficult
+Synthesize recent research on query expansion versus LLM agents and recommend an architecture.,difficult

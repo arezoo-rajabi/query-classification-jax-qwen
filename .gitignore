@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.egg-info/
+artifacts/
+.pytest_cache/
+
+# third-party source document (not redistributed)
+data/*.pdf
+data/guide.txt
+README.md.new
+.DS_Store

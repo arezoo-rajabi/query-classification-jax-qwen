@@ -1,0 +1,1001 @@
+query,label,source_chapter
+What common mistakes occur with cloud-based providers for LLM deployment and how can they be avoided?,moderate,8 Deployment
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of the traditional RAG pipeline and adapters and the cost, latency and maintenance trade-offs.",difficult,1 Introduction | 6 Fine-Tuning
+"Design an end-to-end strategy that integrates the seven-stage fine-tuning pipeline with statistical language models for a production LLM, covering data, training, evaluation and monitoring.",difficult,2 Seven Stage Pipeline | 1 Introduction
+how are mini-batch gradient descent and pre-training related?,moderate,5 Training Setup | 1 Introduction
+How does fine-tuning work?,moderate,1 Introduction
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of tools and libraries for model initialisation and fine-tuning with multiple adapters and the cost, latency and maintenance trade-offs.",difficult,4 Model Initialisation | 6 Fine-Tuning
+What challenges should I expect when dealing with domain-specific fine-tuning?,moderate,6 Fine-Tuning
+What best practices does the guide recommend regarding data collection?,moderate,3 Data Preparation
+"A company has 5,000 labeled domain documents and a single 24GB GPU. Using model deployment and model initialisation, how would you plan the complete fine-tuning pipeline from data preparation to deployment and monitoring?",difficult,2 Seven Stage Pipeline | 2 Seven Stage Pipeline
+Is safety benchmarks for fine-tuned LLMs covered in the fine-tuning guide?,simple,7 Evaluation
+"How does the choice of the Adam optimiser change the requirements for the AdaDelta optimiser, and how would you validate that the combination generalises?",difficult,5 Training Setup | 5 Training Setup
+Define alerting mechanisms and thresholds,simple,9 Monitoring
+How does cloud-based providers for LLM deployment fit into the overall LLM fine-tuning pipeline?,moderate,8 Deployment
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering adapters and grid search for hyperparameters, what would you change in the pipeline and how would you verify the fix?",difficult,6 Fine-Tuning | 5 Training Setup
+"A company has 5,000 labeled domain documents and a single 24GB GPU. Using adapters and Odds-Ratio Preference Optimization (ORPO), how would you plan the complete fine-tuning pipeline from data preparation to deployment and monitoring?",difficult,6 Fine-Tuning | 6 Fine-Tuning
+"how does the choice of adapters change the requirements for dataset splitting, and how would you validate that the combination generalises",difficult,6 Fine-Tuning | 3 Data Preparation
+What is the purpose of Lamini memory tuning?,simple,6 Fine-Tuning
+"We must align a model to human preferences while keeping inference cheap. Explain how Low-Rank Adaptation (LoRA) and data collection would each contribute, and where they conflict",difficult,6 Fine-Tuning | 3 Data Preparation
+"If neural language models degrades model quality, how would you diagnose whether the cause lies in parameter-efficient fine-tuning (PEFT), and what experiments would you run?",difficult,1 Introduction | 6 Fine-Tuning
+Is cloud-based providers for LLM deployment covered in the fine-tuning guide?,simple,8 Deployment
+What challenges should I expect when dealing with WildGuard?,moderate,7 Evaluation
+"Briefly, what do we mean by Llama Guard?",simple,7 Evaluation
+How does scalability challenges in fine-tuning fit into the overall LLM fine-tuning pipeline?,moderate,10+ Advanced Topics
+What best practices does the guide recommend regarding evaluation and validation?,moderate,2 Seven Stage Pipeline
+what is the Adam optimiser,simple,5 Training Setup
+is prompt monitoring covered in the fine-tuning guide,simple,9 Monitoring
+What does the guide say Direct Preference Optimisation (DPO) is?,simple,6 Fine-Tuning
+"Compare QLoRA and statistical language models in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,6 Fine-Tuning | 1 Introduction
+"How do scalability challenges in fine-tuning and the seven-stage fine-tuning pipeline interact in a full fine-tuning workflow, and what failure modes arise when they are combined?",difficult,10+ Advanced Topics | 2 Seven Stage Pipeline
+"How does the choice of accountability in LLM fine-tuning change the requirements for neural language models, and how would you validate that the combination generalises?",difficult,10+ Advanced Topics | 1 Introduction
+Summarise the role of partial versus full fine-tuning in fine-tuning.,moderate,2 Seven Stage Pipeline
+What does the guide say functional monitoring is?,simple,9 Monitoring
+Describe how inference optimisation affects model quality.,moderate,8 Deployment
+Explain safety benchmarks for fine-tuned LLMs in the context of fine-tuning LLMs.,moderate,7 Evaluation
+What does the guide explain about the AdamW optimiser?,moderate,5 Training Setup
+"Briefly, what do we mean by training environment setup?",simple,2 Seven Stage Pipeline
+"How does the choice of task-specific fine-tuning change the requirements for domain-specific fine-tuning, and how would you validate that the combination generalises?",difficult,6 Fine-Tuning | 6 Fine-Tuning
+What is the difference between task-specific fine-tuning and pre-training?,moderate,6 Fine-Tuning | 1 Introduction
+"Compare Bayesian optimisation for hyperparameters and cloud-based providers for LLM deployment in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,5 Training Setup | 8 Deployment
+In which chapter of the guide is quantised LLMs discussed?,simple,8 Deployment
+what is Retrieval Augmented Generation (RAG),simple,1 Introduction
+In which chapter of the guide is challenges in model initialisation discussed?,simple,4 Model Initialisation
+What is the purpose of random search for hyperparameters?,simple,5 Training Setup
+"Compare training environment setup and pruning LLMs in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,2 Seven Stage Pipeline | 6 Fine-Tuning
+What does the guide say Low-Rank Adaptation (LoRA) is?,simple,6 Fine-Tuning
+What is the purpose of model initialisation?,simple,2 Seven Stage Pipeline
+Synthesise what the guide says about fine-tuning with multiple adapters and fine-tuning into a decision framework for choosing a fine-tuning approach.,difficult,6 Fine-Tuning | 1 Introduction
+Why is challenges in model initialisation important when fine-tuning a large language model?,moderate,4 Model Initialisation
+What is the difference between cross-entropy loss and adapters?,moderate,7 Evaluation | 6 Fine-Tuning
+"Compare ShieldGemma and cross-entropy loss in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team",difficult,7 Evaluation | 7 Evaluation
+how are scalability challenges in fine-tuning and training environment setup related?,moderate,10+ Advanced Topics | 2 Seven Stage Pipeline
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of cross-entropy loss and on-premises GPU-based LLM deployment and the cost, latency and maintenance trade-offs.",difficult,7 Evaluation | 8 Deployment
+Is tools and libraries for model initialisation covered in the fine-tuning guide?,simple,4 Model Initialisation
+What common mistakes occur with instruction fine-tuning and how can they be avoided?,moderate,1 Introduction
+Is accountability in LLM fine-tuning covered in the fine-tuning guide,simple,10+ Advanced Topics
+"Briefly, what do we mean by ethical data handling?",simple,3 Data Preparation
+What are the main benefits and limitations of domain-specific fine-tuning?,moderate,6 Fine-Tuning
+Give a one-line definition of loss functions.,simple,5 Training Setup
+Define tools and libraries for model initialisation.,simple,4 Model Initialisation
+"a company has 5,000 labeled domain documents and a single 24gb gpu. using domain-specific fine-tuning and dora (weight-decomposed low-rank adaptation), how would you plan the complete fine-tuning pipeline from data preparation to deployment and monitoring",difficult,6 Fine-Tuning | 6 Fine-Tuning
+What does the guide say grid search for hyperparameters is?,simple,5 Training Setup
+"Briefly, what do we mean by challenges in model initialisation?",simple,4 Model Initialisation
+What does the guide explain about accountability in LLM fine-tuning?,moderate,10+ Advanced Topics
+"Briefly, what do we mean by cloud-based providers for LLM deployment?",simple,8 Deployment
+What is the difference between synthetic data generation using LLMs and the AdamW optimiser?,moderate,3 Data Preparation | 5 Training Setup
+Synthesise what the guide says about evaluation and validation and on-premises GPU-based LLM deployment into a decision framework for choosing a fine-tuning approach.,difficult,2 Seven Stage Pipeline | 8 Deployment
+How does distributed torrent-style LLM deployment fit into the overall LLM fine-tuning pipeline?,moderate,8 Deployment
+"Critically evaluate whether handling data imbalance can replace Low-Rank Adaptation (LoRA), citing the strengths and weaknesses of each and when each fails.",difficult,3 Data Preparation | 6 Fine-Tuning
+ethical data handling - what is it?,simple,3 Data Preparation
+Why is the AdaGrad optimiser important when fine-tuning a large language model?,moderate,5 Training Setup
+Give a one-line definition of ShieldGemma.,simple,7 Evaluation
+Describe how Retrieval Augmented Generation (RAG) affects model quality.,moderate,1 Introduction
+What is the difference between high-quality data collection and statistical language models?,moderate,3 Data Preparation | 1 Introduction
+"Design an end-to-end strategy that integrates partial versus full fine-tuning with WebGPU-based LLM deployment for a production LLM, covering data, training, evaluation and monitoring.",difficult,2 Seven Stage Pipeline | 8 Deployment
+What does the guide say WebGPU-based LLM deployment is?,simple,8 Deployment
+What is Half Fine-Tuning (HFT)?,simple,6 Fine-Tuning
+how are DoRA (weight-decomposed low-rank adaptation) and the AdamW optimiser related?,moderate,6 Fine-Tuning | 5 Training Setup
+Is data collection covered in the fine-tuning guide?,simple,3 Data Preparation
+What common mistakes occur with handling data imbalance and how can they be avoided?,moderate,3 Data Preparation
+"Briefly, what do we mean by Half Fine-Tuning (HFT)?",simple,6 Fine-Tuning
+Synthesise what the guide says about response monitoring and fine-tuning for audio and speech processing into a decision framework for choosing a fine-tuning approach.,difficult,9 Monitoring | 10+ Advanced Topics
+What is high-quality data collection,simple,3 Data Preparation
+define advanced llm evaluation metrics,simple,7 Evaluation
+What is prompt monitoring?,simple,9 Monitoring
+In which chapter of the guide is fine-tuning for audio and speech processing discussed?,simple,10+ Advanced Topics
+what challenges should i expect when dealing with model deployment,moderate,2 Seven Stage Pipeline
+"How do overfitting and data preprocessing and formatting interact in a full fine-tuning workflow, and what failure modes arise when they are combined?",difficult,7 Evaluation | 3 Data Preparation
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering synthetic data generation using LLMs and instruction fine-tuning, what would you change in the pipeline and how would you verify the fix?",difficult,3 Data Preparation | 1 Introduction
+"If task-specific fine-tuning degrades model quality, how would you diagnose whether the cause lies in Mixture of Experts (MoE), and what experiments would you run?",difficult,6 Fine-Tuning | 6 Fine-Tuning
+parameter-efficient fine-tuning (PEFT) - what is it?,simple,6 Fine-Tuning
+When would you choose Lamini memory tuning over Direct Preference Optimisation (DPO)?,moderate,6 Fine-Tuning | 6 Fine-Tuning
+Why is on-premises GPU-based LLM deployment important when fine-tuning a large language model?,moderate,8 Deployment
+Summarise the role of gradient descent in fine-tuning.,moderate,5 Training Setup
+What is the purpose of adapters?,simple,6 Fine-Tuning
+"Analyse the trade-offs between QLoRA and monitoring and maintenance when fine-tuning under a tight GPU memory budget, and justify a recommendation.",difficult,6 Fine-Tuning | 2 Seven Stage Pipeline
+Why is Proximal Policy Optimisation (PPO) important when fine-tuning a large language model?,moderate,6 Fine-Tuning
+"Compare WebGPU-based LLM deployment and pre-training in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,8 Deployment | 1 Introduction
+Is WildGuard covered in the fine-tuning guide?,simple,7 Evaluation
+What is the purpose of validation loops?,simple,7 Evaluation
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of adapters and accountability in LLM fine-tuning and the cost, latency and maintenance trade-offs.",difficult,6 Fine-Tuning | 10+ Advanced Topics
+"Critically evaluate whether mini-batch gradient descent can replace on-premises GPU-based LLM deployment, citing the strengths and weaknesses of each and when each fails.",difficult,5 Training Setup | 8 Deployment
+how does fine-tuning for audio and speech processing compare to large language models,moderate,10+ Advanced Topics | 1 Introduction
+"design an end-to-end strategy that integrates data augmentation with instruction fine-tuning for a production llm, covering data, training, evaluation and monitoring",difficult,3 Data Preparation | 1 Introduction
+Name the main idea behind Odds-Ratio Preference Optimization (ORPO).,simple,6 Fine-Tuning
+Explain DoRA (weight-decomposed low-rank adaptation) in the context of fine-tuning LLMs.,moderate,6 Fine-Tuning
+What challenges should I expect when dealing with parameter-efficient fine-tuning (PEFT)?,moderate,6 Fine-Tuning
+how are multimodal LLMs and pruning LLMs related?,moderate,10+ Advanced Topics | 6 Fine-Tuning
+"Design an end-to-end strategy that integrates multimodal LLMs with the AdaGrad optimiser for a production LLM, covering data, training, evaluation and monitoring.",difficult,10+ Advanced Topics | 5 Training Setup
+In which chapter of the guide is Lamini memory tuning discussed?,simple,6 Fine-Tuning
+Synthesise what the guide says about Lamini memory tuning and model initialisation into a decision framework for choosing a fine-tuning approach.,difficult,6 Fine-Tuning | 2 Seven Stage Pipeline
+Summarise the role of DoRA (weight-decomposed low-rank adaptation) in fine-tuning.,moderate,6 Fine-Tuning
+"How does the choice of hyperparameter tuning change the requirements for the seven-stage fine-tuning pipeline, and how would you validate that the combination generalises?",difficult,5 Training Setup | 2 Seven Stage Pipeline
+Synthesise what the guide says about Mixture of Experts (MoE) and fine-tuning with multiple adapters into a decision framework for choosing a fine-tuning approach.,difficult,6 Fine-Tuning | 6 Fine-Tuning
+"Critically evaluate whether the RMSprop optimiser can replace Odds-Ratio Preference Optimization (ORPO), citing the strengths and weaknesses of each and when each fails.",difficult,5 Training Setup | 6 Fine-Tuning
+Give a one-line definition of QLoRA.,simple,6 Fine-Tuning
+How does benchmarking fine-tuned LLMs work?,moderate,7 Evaluation
+Give a one-line definition of Lamini memory tuning.,simple,6 Fine-Tuning
+"Design an end-to-end strategy that integrates monitoring and maintenance with evaluation and validation for a production LLM, covering data, training, evaluation and monitoring.",difficult,2 Seven Stage Pipeline | 2 Seven Stage Pipeline
+How does functional monitoring fit into the overall LLM fine-tuning pipeline?,moderate,9 Monitoring
+What is Direct Preference Optimisation (DPO)?,simple,6 Fine-Tuning
+"How do statistical language models and Mixture of Experts (MoE) interact in a full fine-tuning workflow, and what failure modes arise when they are combined?",difficult,1 Introduction | 6 Fine-Tuning
+What challenges should I expect when dealing with the traditional RAG pipeline?,moderate,1 Introduction
+"Evaluate the risks to privacy, scalability and accountability when applying inference optimisation together with evaluation and validation, and propose mitigations.",difficult,8 Deployment | 2 Seven Stage Pipeline
+give a one-line definition of quantised llms,simple,8 Deployment
+Can you define the traditional RAG pipeline briefly?,simple,1 Introduction
+What is the difference between mini-batch gradient descent and fine-tuning?,moderate,5 Training Setup | 1 Introduction
+When would you choose Odds-Ratio Preference Optimization (ORPO) over privacy in LLM fine-tuning?,moderate,6 Fine-Tuning | 10+ Advanced Topics
+how are fine-tuning and stochastic gradient descent (SGD) related?,moderate,1 Introduction | 5 Training Setup
+"Analyse the trade-offs between mini-batch gradient descent and partial versus full fine-tuning when fine-tuning under a tight GPU memory budget, and justify a recommendation.",difficult,5 Training Setup | 2 Seven Stage Pipeline
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of Llama Guard and task-specific fine-tuning and the cost, latency and maintenance trade-offs.",difficult,7 Evaluation | 6 Fine-Tuning
+What best practices does the guide recommend regarding supervised fine-tuning (SFT)?,moderate,1 Introduction
+"Analyse the trade-offs between QLoRA and domain-specific fine-tuning when fine-tuning under a tight GPU memory budget, and justify a recommendation.",difficult,6 Fine-Tuning | 6 Fine-Tuning
+What does the guide say Half Fine-Tuning (HFT) is?,simple,6 Fine-Tuning
+"Evaluate the risks to privacy, scalability and accountability when applying advanced LLM evaluation metrics together with domain-specific fine-tuning, and propose mitigations.",difficult,7 Evaluation | 6 Fine-Tuning
+What common mistakes occur with loss functions and how can they be avoided?,moderate,5 Training Setup
+Name the main idea behind the traditional RAG pipeline.,simple,1 Introduction
+In which chapter of the guide is WildGuard discussed?,simple,7 Evaluation
+Name the main idea behind challenges in model initialisation.,simple,4 Model Initialisation
+what is hyperparameter tuning,simple,5 Training Setup
+In which chapter of the guide is pruning LLMs discussed?,simple,6 Fine-Tuning
+In which chapter of the guide is mini-batch gradient descent discussed?,simple,5 Training Setup
+In which chapter of the guide is statistical language models discussed?,simple,1 Introduction
+"Critically evaluate whether on-premises GPU-based LLM deployment can replace prompt monitoring, citing the strengths and weaknesses of each and when each fails.",difficult,8 Deployment | 9 Monitoring
+Can you define QLoRA briefly?,simple,6 Fine-Tuning
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering fine-tuning for audio and speech processing and prompt monitoring, what would you change in the pipeline and how would you verify the fix?",difficult,10+ Advanced Topics | 9 Monitoring
+Synthesise what the guide says about pre-training and the challenges of serving RAG into a decision framework for choosing a fine-tuning approach.,difficult,1 Introduction | 1 Introduction
+"Evaluate the risks to privacy, scalability and accountability when applying grid search for hyperparameters together with the AdaDelta optimiser, and propose mitigations.",difficult,5 Training Setup | 5 Training Setup
+Is synthetic data generation using LLMs covered in the fine-tuning guide?,simple,3 Data Preparation
+"A company has 5,000 labeled domain documents and a single 24GB GPU. Using fine-tuning with multiple adapters and Proximal Policy Optimisation (PPO), how would you plan the complete fine-tuning pipeline from data preparation to deployment and monitoring?",difficult,6 Fine-Tuning | 6 Fine-Tuning
+Is fine-tuning for audio and speech processing covered in the fine-tuning guide?,simple,10+ Advanced Topics
+explain dataset preparation in the context of fine-tuning llms,moderate,2 Seven Stage Pipeline
+Is Odds-Ratio Preference Optimization (ORPO) covered in the fine-tuning guide?,simple,6 Fine-Tuning
+"Critically evaluate whether Low-Rank Adaptation (LoRA) can replace benchmarking fine-tuned LLMs, citing the strengths and weaknesses of each and when each fails.",difficult,6 Fine-Tuning | 7 Evaluation
+What best practices does the guide recommend regarding ethical data handling?,moderate,3 Data Preparation
+"A company has 5,000 labeled domain documents and a single 24GB GPU. Using pruning LLMs and WebGPU-based LLM deployment, how would you plan the complete fine-tuning pipeline from data preparation to deployment and monitoring?",difficult,6 Fine-Tuning | 8 Deployment
+What best practices does the guide recommend regarding unsupervised fine-tuning?,moderate,1 Introduction
+In which chapter of the guide is inference optimisation discussed?,simple,8 Deployment
+"Analyse the trade-offs between neural language models and advanced LLM evaluation metrics when fine-tuning under a tight GPU memory budget, and justify a recommendation.",difficult,1 Introduction | 7 Evaluation
+Name the main idea behind Llama Guard.,simple,7 Evaluation
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering the challenges of serving RAG and loss functions, what would you change in the pipeline and how would you verify the fix?",difficult,1 Introduction | 5 Training Setup
+How does Mixture of Agents (MoA) compare to tools and libraries for model initialisation?,moderate,6 Fine-Tuning | 4 Model Initialisation
+"We must align a model to human preferences while keeping inference cheap. Explain how Lamini memory tuning and Mixture of Experts (MoE) would each contribute, and where they conflict.",difficult,6 Fine-Tuning | 6 Fine-Tuning
+What are the main benefits and limitations of data preprocessing and formatting?,moderate,3 Data Preparation
+What does the guide explain about hyperparameter tuning?,moderate,5 Training Setup
+"Design an end-to-end strategy that integrates inference optimisation with domain-specific fine-tuning for a production LLM, covering data, training, evaluation and monitoring.",difficult,8 Deployment | 6 Fine-Tuning
+"If overfitting degrades model quality, how would you diagnose whether the cause lies in monitoring and maintenance, and what experiments would you run?",difficult,7 Evaluation | 2 Seven Stage Pipeline
+Is the AdamW optimiser covered in the fine-tuning guide?,simple,5 Training Setup
+"If privacy in LLM fine-tuning degrades model quality, how would you diagnose whether the cause lies in evaluation and validation, and what experiments would you run?",difficult,10+ Advanced Topics | 2 Seven Stage Pipeline
+privacy in LLM fine-tuning - what is it?,simple,10+ Advanced Topics
+What is the purpose of challenges in model initialisation?,simple,4 Model Initialisation
+What common mistakes occur with distributed torrent-style LLM deployment and how can they be avoided?,moderate,8 Deployment
+What best practices does the guide recommend regarding benchmarking fine-tuned LLMs?,moderate,7 Evaluation
+Give a one-line definition of Bayesian optimisation for hyperparameters.,simple,5 Training Setup
+"Design an end-to-end strategy that integrates prompt monitoring with hyperparameter tuning for a production LLM, covering data, training, evaluation and monitoring.",difficult,9 Monitoring | 5 Training Setup
+What challenges should I expect when dealing with mini-batch gradient descent?,moderate,5 Training Setup
+Explain the Mixtral 8x7B architecture in the context of fine-tuning LLMs.,moderate,6 Fine-Tuning
+Give a one-line definition of data preprocessing and formatting.,simple,3 Data Preparation
+In which chapter of the guide is unsupervised fine-tuning discussed?,simple,1 Introduction
+"How do Low-Rank Adaptation (LoRA) and the RMSprop optimiser interact in a full fine-tuning workflow, and what failure modes arise when they are combined?",difficult,6 Fine-Tuning | 5 Training Setup
+Synthesise what the guide says about the AdamW optimiser and WildGuard into a decision framework for choosing a fine-tuning approach.,difficult,5 Training Setup | 7 Evaluation
+What is the difference between partial versus full fine-tuning and the Mixtral 8x7B architecture?,moderate,2 Seven Stage Pipeline | 6 Fine-Tuning
+"We must align a model to human preferences while keeping inference cheap. Explain how the traditional RAG pipeline and model initialisation would each contribute, and where they conflict.",difficult,1 Introduction | 2 Seven Stage Pipeline
+What does the guide explain about quantised LLMs?,moderate,8 Deployment
+how are the AdamW optimiser and pruning LLMs related?,moderate,5 Training Setup | 6 Fine-Tuning
+"A company has 5,000 labeled domain documents and a single 24GB GPU. Using instruction fine-tuning and pruning LLMs, how would you plan the complete fine-tuning pipeline from data preparation to deployment and monitoring?",difficult,1 Introduction | 6 Fine-Tuning
+Can you define scalability challenges in fine-tuning briefly?,simple,10+ Advanced Topics
+Describe how dataset preparation affects model quality.,moderate,2 Seven Stage Pipeline
+What best practices does the guide recommend regarding Half Fine-Tuning (HFT)?,moderate,6 Fine-Tuning
+"We must align a model to human preferences while keeping inference cheap. Explain how data collection and grid search for hyperparameters would each contribute, and where they conflict.",difficult,3 Data Preparation | 5 Training Setup
+"If data preprocessing and formatting degrades model quality, how would you diagnose whether the cause lies in Mixture of Agents (MoA), and what experiments would you run?",difficult,3 Data Preparation | 6 Fine-Tuning
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering alerting mechanisms and thresholds and handling data imbalance, what would you change in the pipeline and how would you verify the fix?",difficult,9 Monitoring | 3 Data Preparation
+"Evaluate the risks to privacy, scalability and accountability when applying alerting mechanisms and thresholds together with Mixture of Agents (MoA), and propose mitigations.",difficult,9 Monitoring | 6 Fine-Tuning
+What challenges should I expect when dealing with the AdaDelta optimiser?,moderate,5 Training Setup
+task-specific fine-tuning - what is it?,simple,6 Fine-Tuning
+Define data annotation.,simple,3 Data Preparation
+What best practices does the guide recommend regarding prompt monitoring?,moderate,9 Monitoring
+what is the purpose of tools and libraries for model initialisation,simple,4 Model Initialisation
+Can you define Proximal Policy Optimisation (PPO) briefly?,simple,6 Fine-Tuning
+how are ShieldGemma and distributed torrent-style LLM deployment related?,moderate,7 Evaluation | 8 Deployment
+data annotation - what is it?,simple,3 Data Preparation
+In which chapter of the guide is the AdaDelta optimiser discussed?,simple,5 Training Setup
+Summarise the role of fine-tuning in fine-tuning.,moderate,1 Introduction
+"Analyse the trade-offs between stochastic gradient descent (SGD) and evaluation and validation when fine-tuning under a tight GPU memory budget, and justify a recommendation.",difficult,5 Training Setup | 2 Seven Stage Pipeline
+What are the main benefits and limitations of fine-tuning?,moderate,1 Introduction
+"Critically evaluate whether hyperparameter tuning can replace alerting mechanisms and thresholds, citing the strengths and weaknesses of each and when each fails.",difficult,5 Training Setup | 9 Monitoring
+What common mistakes occur with evaluation and validation and how can they be avoided?,moderate,2 Seven Stage Pipeline
+Can you define stochastic gradient descent (SGD) briefly?,simple,5 Training Setup
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering cloud-based providers for LLM deployment and WebGPU-based LLM deployment, what would you change in the pipeline and how would you verify the fix?",difficult,8 Deployment | 8 Deployment
+What are the main benefits and limitations of the AdaGrad optimiser?,moderate,5 Training Setup
+"Compare evaluation and validation and training environment setup in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team",difficult,2 Seven Stage Pipeline | 2 Seven Stage Pipeline
+WebGPU-based LLM deployment - what is it?,simple,8 Deployment
+Give a one-line definition of overfitting.,simple,7 Evaluation
+"Compare the AdamW optimiser and challenges in model initialisation in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,5 Training Setup | 4 Model Initialisation
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering the traditional RAG pipeline and distributed torrent-style LLM deployment, what would you change in the pipeline and how would you verify the fix?",difficult,1 Introduction | 8 Deployment
+Describe how data augmentation affects model quality.,moderate,3 Data Preparation
+What is the purpose of training environment setup?,simple,2 Seven Stage Pipeline
+Summarise the role of safety benchmarks for fine-tuned LLMs in fine-tuning.,moderate,7 Evaluation
+Give a one-line definition of tools and libraries for model initialisation.,simple,4 Model Initialisation
+"we must align a model to human preferences while keeping inference cheap. explain how the traditional rag pipeline and dora (weight-decomposed low-rank adaptation) would each contribute, and where they conflict",difficult,1 Introduction | 6 Fine-Tuning
+"Evaluate the risks to privacy, scalability and accountability when applying dataset preparation together with multimodal LLMs, and propose mitigations.",difficult,2 Seven Stage Pipeline | 10+ Advanced Topics
+Give a one-line definition of instruction fine-tuning.,simple,1 Introduction
+"We must align a model to human preferences while keeping inference cheap. Explain how Mixture of Experts (MoE) and data augmentation would each contribute, and where they conflict.",difficult,6 Fine-Tuning | 3 Data Preparation
+"How do distributed torrent-style LLM deployment and functional monitoring interact in a full fine-tuning workflow, and what failure modes arise when they are combined?",difficult,8 Deployment | 9 Monitoring
+what is data augmentation,simple,3 Data Preparation
+"How does the choice of the RMSprop optimiser change the requirements for DoRA (weight-decomposed low-rank adaptation), and how would you validate that the combination generalises?",difficult,5 Training Setup | 6 Fine-Tuning
+Is dataset preparation covered in the fine-tuning guide?,simple,2 Seven Stage Pipeline
+Why is stochastic gradient descent (SGD) important when fine-tuning a large language model?,moderate,5 Training Setup
+What common mistakes occur with partial versus full fine-tuning and how can they be avoided?,moderate,2 Seven Stage Pipeline
+Synthesise what the guide says about ShieldGemma and instruction fine-tuning into a decision framework for choosing a fine-tuning approach.,difficult,7 Evaluation | 1 Introduction
+When would you choose pre-trained language models over Mixture of Agents (MoA)?,moderate,1 Introduction | 6 Fine-Tuning
+Describe how training environment setup affects model quality,moderate,2 Seven Stage Pipeline
+"If accountability in LLM fine-tuning degrades model quality, how would you diagnose whether the cause lies in evaluation and validation, and what experiments would you run?",difficult,10+ Advanced Topics | 2 Seven Stage Pipeline
+What is the difference between validation loops and QLoRA?,moderate,7 Evaluation | 6 Fine-Tuning
+What does the guide explain about safety benchmarks for fine-tuned LLMs?,moderate,7 Evaluation
+what is grid search for hyperparameters,simple,5 Training Setup
+Can you define the AdaDelta optimiser briefly?,simple,5 Training Setup
+What does the guide say Mixture of Agents (MoA) is?,simple,6 Fine-Tuning
+Synthesise what the guide says about mini-batch gradient descent and grid search for hyperparameters into a decision framework for choosing a fine-tuning approach.,difficult,5 Training Setup | 5 Training Setup
+Name the main idea behind quantised LLMs.,simple,8 Deployment
+What does the guide say WildGuard is?,simple,7 Evaluation
+Define Llama Guard.,simple,7 Evaluation
+Name the main idea behind Direct Preference Optimisation (DPO).,simple,6 Fine-Tuning
+What are the main benefits and limitations of data annotation?,moderate,3 Data Preparation
+synthesise what the guide says about monitoring and maintenance and statistical language models into a decision framework for choosing a fine-tuning approach,difficult,2 Seven Stage Pipeline | 1 Introduction
+what is the Mixtral 8x7B architecture,simple,6 Fine-Tuning
+Name the main idea behind dataset preparation.,simple,2 Seven Stage Pipeline
+What are the main benefits and limitations of high-quality data collection?,moderate,3 Data Preparation
+Define loss functions.,simple,5 Training Setup
+Can you define cross-entropy loss briefly?,simple,7 Evaluation
+what is advanced LLM evaluation metrics,simple,7 Evaluation
+What is Llama Guard?,simple,7 Evaluation
+"Critically evaluate whether overfitting can replace WebGPU-based LLM deployment, citing the strengths and weaknesses of each and when each fails.",difficult,7 Evaluation | 8 Deployment
+"Design an end-to-end strategy that integrates multimodal LLMs with Lamini memory tuning for a production LLM, covering data, training, evaluation and monitoring.",difficult,10+ Advanced Topics | 6 Fine-Tuning
+"Design an end-to-end strategy that integrates the seven-stage fine-tuning pipeline with large language models for a production LLM, covering data, training, evaluation and monitoring.",difficult,2 Seven Stage Pipeline | 1 Introduction
+Describe how functional monitoring affects model quality.,moderate,9 Monitoring
+What is alerting mechanisms and thresholds?,simple,9 Monitoring
+How does dataset preparation fit into the overall LLM fine-tuning pipeline?,moderate,2 Seven Stage Pipeline
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering neural language models and functional monitoring, what would you change in the pipeline and how would you verify the fix?",difficult,1 Introduction | 9 Monitoring
+"Compare quantised LLMs and pruning LLMs in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,8 Deployment | 6 Fine-Tuning
+tools and libraries for model initialisation - what is it?,simple,4 Model Initialisation
+"Compare accountability in LLM fine-tuning and supervised fine-tuning (SFT) in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team",difficult,10+ Advanced Topics | 1 Introduction
+What best practices does the guide recommend regarding multimodal LLMs?,moderate,10+ Advanced Topics
+Can you define cloud-based providers for LLM deployment briefly?,simple,8 Deployment
+Give a one-line definition of training loss curves.,simple,7 Evaluation
+How does large language models work?,moderate,1 Introduction
+"Evaluate the risks to privacy, scalability and accountability when applying on-premises GPU-based LLM deployment together with DoRA (weight-decomposed low-rank adaptation), and propose mitigations.",difficult,8 Deployment | 6 Fine-Tuning
+"Evaluate the risks to privacy, scalability and accountability when applying data augmentation together with Llama Guard, and propose mitigations.",difficult,3 Data Preparation | 7 Evaluation
+What does the guide explain about cloud-based providers for LLM deployment?,moderate,8 Deployment
+Summarise the role of the AdamW optimiser in fine-tuning.,moderate,5 Training Setup
+What is the difference between response monitoring and large language models?,moderate,9 Monitoring | 1 Introduction
+What are the main benefits and limitations of ShieldGemma?,moderate,7 Evaluation
+What does the guide say unsupervised fine-tuning is?,simple,1 Introduction
+"Critically evaluate whether Mixture of Agents (MoA) can replace Odds-Ratio Preference Optimization (ORPO), citing the strengths and weaknesses of each and when each fails.",difficult,6 Fine-Tuning | 6 Fine-Tuning
+Define Direct Preference Optimisation (DPO).,simple,6 Fine-Tuning
+When would you choose the seven-stage fine-tuning pipeline over DoRA (weight-decomposed low-rank adaptation)?,moderate,2 Seven Stage Pipeline | 6 Fine-Tuning
+what is statistical language models,simple,1 Introduction
+Define data augmentation.,simple,3 Data Preparation
+What common mistakes occur with WildGuard and how can they be avoided?,moderate,7 Evaluation
+define shieldgemma,simple,7 Evaluation
+"If cloud-based providers for LLM deployment degrades model quality, how would you diagnose whether the cause lies in data preprocessing and formatting, and what experiments would you run?",difficult,8 Deployment | 3 Data Preparation
+Explain Low-Rank Adaptation (LoRA) in the context of fine-tuning LLMs.,moderate,6 Fine-Tuning
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering Odds-Ratio Preference Optimization (ORPO) and adapters, what would you change in the pipeline and how would you verify the fix?",difficult,6 Fine-Tuning | 6 Fine-Tuning
+Can you define functional monitoring briefly?,simple,9 Monitoring
+Name the main idea behind pruning LLMs.,simple,6 Fine-Tuning
+Name the main idea behind WebLLM.,simple,8 Deployment
+"How do noisy gradients and privacy in LLM fine-tuning interact in a full fine-tuning workflow, and what failure modes arise when they are combined?",difficult,7 Evaluation | 10+ Advanced Topics
+Explain Mixture of Agents (MoA) in the context of fine-tuning LLMs.,moderate,6 Fine-Tuning
+Describe how functional monitoring affects model quality,moderate,9 Monitoring
+what is parameter-efficient fine-tuning (PEFT),simple,6 Fine-Tuning
+"Critically evaluate whether the RMSprop optimiser can replace alerting mechanisms and thresholds, citing the strengths and weaknesses of each and when each fails.",difficult,5 Training Setup | 9 Monitoring
+Synthesise what the guide says about Bayesian optimisation for hyperparameters and multimodal LLMs into a decision framework for choosing a fine-tuning approach.,difficult,5 Training Setup | 10+ Advanced Topics
+"We must align a model to human preferences while keeping inference cheap. Explain how cloud-based providers for LLM deployment and the AdaGrad optimiser would each contribute, and where they conflict.",difficult,8 Deployment | 5 Training Setup
+What best practices does the guide recommend regarding quantised LLMs?,moderate,8 Deployment
+What challenges should I expect when dealing with data annotation?,moderate,3 Data Preparation
+What common mistakes occur with WebLLM and how can they be avoided?,moderate,8 Deployment
+What best practices does the guide recommend regarding training loss curves?,moderate,7 Evaluation
+"Analyse the trade-offs between cloud-based providers for LLM deployment and large language models when fine-tuning under a tight GPU memory budget, and justify a recommendation.",difficult,8 Deployment | 1 Introduction
+what best practices does the guide recommend regarding noisy gradients,moderate,7 Evaluation
+In which chapter of the guide is Llama Guard discussed?,simple,7 Evaluation
+What is the purpose of QLoRA?,simple,6 Fine-Tuning
+What best practices does the guide recommend regarding safety benchmarks for fine-tuned LLMs?,moderate,7 Evaluation
+What challenges should I expect when dealing with training environment setup,moderate,2 Seven Stage Pipeline
+Why is advanced LLM evaluation metrics important when fine-tuning a large language model?,moderate,7 Evaluation
+What are the main benefits and limitations of quantised LLMs?,moderate,8 Deployment
+"Analyse the trade-offs between validation loops and grid search for hyperparameters when fine-tuning under a tight GPU memory budget, and justify a recommendation.",difficult,7 Evaluation | 5 Training Setup
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering high-quality data collection and random search for hyperparameters, what would you change in the pipeline and how would you verify the fix?",difficult,3 Data Preparation | 5 Training Setup
+how are pre-training and response monitoring related?,moderate,1 Introduction | 9 Monitoring
+Summarise the role of accountability in LLM fine-tuning in fine-tuning.,moderate,10+ Advanced Topics
+"Evaluate the risks to privacy, scalability and accountability when applying fine-tuning with multiple adapters together with evaluation and validation, and propose mitigations.",difficult,6 Fine-Tuning | 2 Seven Stage Pipeline
+How does hyperparameter tuning work?,moderate,5 Training Setup
+What is the difference between fine-tuning and Proximal Policy Optimisation (PPO)?,moderate,1 Introduction | 6 Fine-Tuning
+What challenges should I expect when dealing with cloud-based providers for LLM deployment?,moderate,8 Deployment
+What common mistakes occur with the challenges of serving RAG and how can they be avoided?,moderate,1 Introduction
+"Design an end-to-end strategy that integrates Mixture of Agents (MoA) with Llama Guard for a production LLM, covering data, training, evaluation and monitoring.",difficult,6 Fine-Tuning | 7 Evaluation
+explain the adagrad optimiser in the context of fine-tuning llms,moderate,5 Training Setup
+What does the guide explain about dataset splitting?,moderate,3 Data Preparation
+what is safety benchmarks for fine-tuned LLMs,simple,7 Evaluation
+Summarise the role of challenges in model initialisation in fine-tuning.,moderate,4 Model Initialisation
+"How does the choice of Mixture of Experts (MoE) change the requirements for ethical data handling, and how would you validate that the combination generalises?",difficult,6 Fine-Tuning | 3 Data Preparation
+What is WildGuard?,simple,7 Evaluation
+what is Mixture of Experts (MoE),simple,6 Fine-Tuning
+What is the purpose of Odds-Ratio Preference Optimization (ORPO)?,simple,6 Fine-Tuning
+Define the Mixtral 8x7B architecture.,simple,6 Fine-Tuning
+What is the difference between accountability in LLM fine-tuning and the traditional RAG pipeline,moderate,10+ Advanced Topics | 1 Introduction
+"How does the choice of neural language models change the requirements for data collection, and how would you validate that the combination generalises?",difficult,1 Introduction | 3 Data Preparation
+Why is cross-entropy loss important when fine-tuning a large language model?,moderate,7 Evaluation
+What does the guide explain about the seven-stage fine-tuning pipeline?,moderate,2 Seven Stage Pipeline
+What best practices does the guide recommend regarding scalability challenges in fine-tuning?,moderate,10+ Advanced Topics
+"Evaluate the risks to privacy, scalability and accountability when applying challenges in model initialisation together with synthetic data generation using LLMs, and propose mitigations.",difficult,4 Model Initialisation | 3 Data Preparation
+What does the guide say the Mixtral 8x7B architecture is?,simple,6 Fine-Tuning
+"We must align a model to human preferences while keeping inference cheap. Explain how Direct Preference Optimisation (DPO) and cloud-based providers for LLM deployment would each contribute, and where they conflict.",difficult,6 Fine-Tuning | 8 Deployment
+Can you define model deployment briefly?,simple,2 Seven Stage Pipeline
+"How do Low-Rank Adaptation (LoRA) and Proximal Policy Optimisation (PPO) interact in a full fine-tuning workflow, and what failure modes arise when they are combined?",difficult,6 Fine-Tuning | 6 Fine-Tuning
+describe how shieldgemma affects model quality,moderate,7 Evaluation
+define response monitoring,simple,9 Monitoring
+"Briefly, what do we mean by domain-specific fine-tuning?",simple,6 Fine-Tuning
+"evaluate the risks to privacy, scalability and accountability when applying parameter-efficient fine-tuning (peft) together with llama guard, and propose mitigations",difficult,6 Fine-Tuning | 7 Evaluation
+How does Low-Rank Adaptation (LoRA) fit into the overall LLM fine-tuning pipeline?,moderate,6 Fine-Tuning
+"If challenges in model initialisation degrades model quality, how would you diagnose whether the cause lies in task-specific fine-tuning, and what experiments would you run?",difficult,4 Model Initialisation | 6 Fine-Tuning
+How does prompt monitoring work?,moderate,9 Monitoring
+When would you choose alerting mechanisms and thresholds over parameter-efficient fine-tuning (PEFT)?,moderate,9 Monitoring | 6 Fine-Tuning
+How does data augmentation compare to handling data imbalance?,moderate,3 Data Preparation | 3 Data Preparation
+Give a one-line definition of domain-specific fine-tuning.,simple,6 Fine-Tuning
+Can you define pruning LLMs briefly?,simple,6 Fine-Tuning
+How does Retrieval Augmented Generation (RAG) fit into the overall LLM fine-tuning pipeline?,moderate,1 Introduction
+What does the guide explain about loss functions?,moderate,5 Training Setup
+how are Half Fine-Tuning (HFT) and the AdamW optimiser related?,moderate,6 Fine-Tuning | 5 Training Setup
+"Evaluate the risks to privacy, scalability and accountability when applying Llama Guard together with Half Fine-Tuning (HFT), and propose mitigations.",difficult,7 Evaluation | 6 Fine-Tuning
+"Briefly, what do we mean by instruction fine-tuning?",simple,1 Introduction
+"Compare training environment setup and accountability in LLM fine-tuning in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,2 Seven Stage Pipeline | 10+ Advanced Topics
+What is the purpose of evaluation and validation?,simple,2 Seven Stage Pipeline
+Give a one-line definition of partial versus full fine-tuning.,simple,2 Seven Stage Pipeline
+"How does the choice of mini-batch gradient descent change the requirements for the traditional RAG pipeline, and how would you validate that the combination generalises?",difficult,5 Training Setup | 1 Introduction
+Give a one-line definition of challenges in model initialisation.,simple,4 Model Initialisation
+what is multimodal LLMs,simple,10+ Advanced Topics
+Give a one-line definition of model initialisation.,simple,2 Seven Stage Pipeline
+advanced llm evaluation metrics - what is it,simple,7 Evaluation
+How does fine-tuning for audio and speech processing fit into the overall LLM fine-tuning pipeline?,moderate,10+ Advanced Topics
+Name the main idea behind the Adam optimiser.,simple,5 Training Setup
+"Briefly, what do we mean by handling data imbalance?",simple,3 Data Preparation
+What best practices does the guide recommend regarding model deployment?,moderate,2 Seven Stage Pipeline
+What does the guide explain about model initialisation?,moderate,2 Seven Stage Pipeline
+What is the Mixtral 8x7B architecture?,simple,6 Fine-Tuning
+Summarise the role of training loss curves in fine-tuning.,moderate,7 Evaluation
+What is the purpose of gradient descent,simple,5 Training Setup
+Can you define instruction fine-tuning briefly?,simple,1 Introduction
+"Compare the Mixtral 8x7B architecture and challenges in model initialisation in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,6 Fine-Tuning | 4 Model Initialisation
+Give a one-line definition of data collection.,simple,3 Data Preparation
+Summarise the role of privacy in LLM fine-tuning in fine-tuning.,moderate,10+ Advanced Topics
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering domain-specific fine-tuning and cloud-based providers for LLM deployment, what would you change in the pipeline and how would you verify the fix?",difficult,6 Fine-Tuning | 8 Deployment
+In which chapter of the guide is Odds-Ratio Preference Optimization (ORPO) discussed,simple,6 Fine-Tuning
+"Evaluate the risks to privacy, scalability and accountability when applying model initialisation together with Bayesian optimisation for hyperparameters, and propose mitigations.",difficult,2 Seven Stage Pipeline | 5 Training Setup
+Name the main idea behind training environment setup.,simple,2 Seven Stage Pipeline
+Lamini memory tuning - what is it?,simple,6 Fine-Tuning
+Can you define WildGuard briefly?,simple,7 Evaluation
+"If dataset preparation degrades model quality, how would you diagnose whether the cause lies in the AdaDelta optimiser, and what experiments would you run?",difficult,2 Seven Stage Pipeline | 5 Training Setup
+Describe how adapters affects model quality.,moderate,6 Fine-Tuning
+Is the seven-stage fine-tuning pipeline covered in the fine-tuning guide?,simple,2 Seven Stage Pipeline
+"Analyse the trade-offs between Proximal Policy Optimisation (PPO) and handling data imbalance when fine-tuning under a tight GPU memory budget, and justify a recommendation.",difficult,6 Fine-Tuning | 3 Data Preparation
+"Analyse the trade-offs between distributed torrent-style LLM deployment and dataset preparation when fine-tuning under a tight GPU memory budget, and justify a recommendation.",difficult,8 Deployment | 2 Seven Stage Pipeline
+"Briefly, what do we mean by Lamini memory tuning?",simple,6 Fine-Tuning
+fine-tuning with multiple adapters - what is it?,simple,6 Fine-Tuning
+"Design an end-to-end strategy that integrates supervised fine-tuning (SFT) with handling data imbalance for a production LLM, covering data, training, evaluation and monitoring.",difficult,1 Introduction | 3 Data Preparation
+What is the purpose of fine-tuning with multiple adapters,simple,6 Fine-Tuning
+What does the guide say ShieldGemma is?,simple,7 Evaluation
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering fine-tuning with multiple adapters and model deployment, what would you change in the pipeline and how would you verify the fix?",difficult,6 Fine-Tuning | 2 Seven Stage Pipeline
+How does distributed torrent-style LLM deployment compare to monitoring and maintenance?,moderate,8 Deployment | 2 Seven Stage Pipeline
+What is grid search for hyperparameters?,simple,5 Training Setup
+"Analyse the trade-offs between task-specific fine-tuning and the RMSprop optimiser when fine-tuning under a tight GPU memory budget, and justify a recommendation.",difficult,6 Fine-Tuning | 5 Training Setup
+"How does the choice of the Mixtral 8x7B architecture change the requirements for model initialisation, and how would you validate that the combination generalises?",difficult,6 Fine-Tuning | 2 Seven Stage Pipeline
+What is pruning LLMs?,simple,6 Fine-Tuning
+Odds-Ratio Preference Optimization (ORPO) - what is it?,simple,6 Fine-Tuning
+"Compare Proximal Policy Optimisation (PPO) and functional monitoring in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,6 Fine-Tuning | 9 Monitoring
+what is dataset preparation,simple,2 Seven Stage Pipeline
+What are the main benefits and limitations of Llama Guard?,moderate,7 Evaluation
+pre-training - what is it?,simple,1 Introduction
+What does the guide explain about handling data imbalance?,moderate,3 Data Preparation
+When would you choose high-quality data collection over Proximal Policy Optimisation (PPO)?,moderate,3 Data Preparation | 6 Fine-Tuning
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering synthetic data generation using LLMs and validation loops, what would you change in the pipeline and how would you verify the fix?",difficult,3 Data Preparation | 7 Evaluation
+"we must align a model to human preferences while keeping inference cheap. explain how partial versus full fine-tuning and ethical data handling would each contribute, and where they conflict",difficult,2 Seven Stage Pipeline | 3 Data Preparation
+what is response monitoring,simple,9 Monitoring
+What best practices does the guide recommend regarding QLoRA?,moderate,6 Fine-Tuning
+What best practices does the guide recommend regarding WildGuard?,moderate,7 Evaluation
+What is the difference between the AdamW optimiser and privacy in LLM fine-tuning?,moderate,5 Training Setup | 10+ Advanced Topics
+What is the difference between scalability challenges in fine-tuning and supervised fine-tuning (SFT)?,moderate,10+ Advanced Topics | 1 Introduction
+"A company has 5,000 labeled domain documents and a single 24GB GPU. Using alerting mechanisms and thresholds and handling data imbalance, how would you plan the complete fine-tuning pipeline from data preparation to deployment and monitoring?",difficult,9 Monitoring | 3 Data Preparation
+"Compare Bayesian optimisation for hyperparameters and adapters in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,5 Training Setup | 6 Fine-Tuning
+How does Llama Guard fit into the overall LLM fine-tuning pipeline?,moderate,7 Evaluation
+What is benchmarking fine-tuned LLMs?,simple,7 Evaluation
+Describe how the AdaGrad optimiser affects model quality,moderate,5 Training Setup
+how are DoRA (weight-decomposed low-rank adaptation) and overfitting related?,moderate,6 Fine-Tuning | 7 Evaluation
+"If stochastic gradient descent (SGD) degrades model quality, how would you diagnose whether the cause lies in safety benchmarks for fine-tuned LLMs, and what experiments would you run?",difficult,5 Training Setup | 7 Evaluation
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of grid search for hyperparameters and on-premises GPU-based LLM deployment and the cost, latency and maintenance trade-offs",difficult,5 Training Setup | 8 Deployment
+Give a one-line definition of Mixture of Agents (MoA).,simple,6 Fine-Tuning
+"Evaluate the risks to privacy, scalability and accountability when applying the challenges of serving RAG together with data collection, and propose mitigations.",difficult,1 Introduction | 3 Data Preparation
+"How do the challenges of serving RAG and Mixture of Agents (MoA) interact in a full fine-tuning workflow, and what failure modes arise when they are combined?",difficult,1 Introduction | 6 Fine-Tuning
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering gradient descent and pre-training, what would you change in the pipeline and how would you verify the fix?",difficult,5 Training Setup | 1 Introduction
+"Compare DoRA (weight-decomposed low-rank adaptation) and training loss curves in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,6 Fine-Tuning | 7 Evaluation
+What does the guide explain about multimodal LLMs?,moderate,10+ Advanced Topics
+how are ethical data handling and monitoring and maintenance related?,moderate,3 Data Preparation | 2 Seven Stage Pipeline
+What is pre-training?,simple,1 Introduction
+"A company has 5,000 labeled domain documents and a single 24GB GPU. Using gradient descent and WebLLM, how would you plan the complete fine-tuning pipeline from data preparation to deployment and monitoring?",difficult,5 Training Setup | 8 Deployment
+What are the main benefits and limitations of Proximal Policy Optimisation (PPO)?,moderate,6 Fine-Tuning
+When would you choose Bayesian optimisation for hyperparameters over the AdamW optimiser?,moderate,5 Training Setup | 5 Training Setup
+What are the main benefits and limitations of functional monitoring?,moderate,9 Monitoring
+What are the main benefits and limitations of adapters?,moderate,6 Fine-Tuning
+what is challenges in model initialisation,simple,4 Model Initialisation
+In which chapter of the guide is the RMSprop optimiser discussed?,simple,5 Training Setup
+What common mistakes occur with the traditional RAG pipeline and how can they be avoided?,moderate,1 Introduction
+Is training loss curves covered in the fine-tuning guide?,simple,7 Evaluation
+"Briefly, what do we mean by WebGPU-based LLM deployment?",simple,8 Deployment
+Explain model deployment in the context of fine-tuning LLMs.,moderate,2 Seven Stage Pipeline
+Describe how pruning LLMs affects model quality.,moderate,6 Fine-Tuning
+What best practices does the guide recommend regarding pre-trained language models?,moderate,1 Introduction
+what is alerting mechanisms and thresholds,simple,9 Monitoring
+What does the guide say the seven-stage fine-tuning pipeline is?,simple,2 Seven Stage Pipeline
+In which chapter of the guide is grid search for hyperparameters discussed?,simple,5 Training Setup
+Explain the challenges of serving RAG in the context of fine-tuning LLMs,moderate,1 Introduction
+"Compare fine-tuning and mini-batch gradient descent in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,1 Introduction | 5 Training Setup
+What best practices does the guide recommend regarding accountability in LLM fine-tuning?,moderate,10+ Advanced Topics
+Can you define dataset splitting briefly?,simple,3 Data Preparation
+What best practices does the guide recommend regarding mini-batch gradient descent?,moderate,5 Training Setup
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of WildGuard and dataset splitting and the cost, latency and maintenance trade-offs.",difficult,7 Evaluation | 3 Data Preparation
+How does the AdamW optimiser fit into the overall LLM fine-tuning pipeline?,moderate,5 Training Setup
+What best practices does the guide recommend regarding cross-entropy loss?,moderate,7 Evaluation
+how are partial versus full fine-tuning and noisy gradients related?,moderate,2 Seven Stage Pipeline | 7 Evaluation
+What challenges should I expect when dealing with accountability in LLM fine-tuning?,moderate,10+ Advanced Topics
+Is scalability challenges in fine-tuning covered in the fine-tuning guide?,simple,10+ Advanced Topics
+When would you choose hyperparameter tuning over fine-tuning for audio and speech processing?,moderate,5 Training Setup | 10+ Advanced Topics
+"If Mixture of Agents (MoA) degrades model quality, how would you diagnose whether the cause lies in Proximal Policy Optimisation (PPO), and what experiments would you run",difficult,6 Fine-Tuning | 6 Fine-Tuning
+When would you choose pruning LLMs over fine-tuning?,moderate,6 Fine-Tuning | 1 Introduction
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of the challenges of serving RAG and scalability challenges in fine-tuning and the cost, latency and maintenance trade-offs.",difficult,1 Introduction | 10+ Advanced Topics
+What common mistakes occur with overfitting and how can they be avoided?,moderate,7 Evaluation
+What is the purpose of pruning LLMs?,simple,6 Fine-Tuning
+What is the purpose of WebLLM?,simple,8 Deployment
+Summarise the role of synthetic data generation using LLMs in fine-tuning.,moderate,3 Data Preparation
+Synthesise what the guide says about cross-entropy loss and large language models into a decision framework for choosing a fine-tuning approach.,difficult,7 Evaluation | 1 Introduction
+"Critically evaluate whether cross-entropy loss can replace dataset preparation, citing the strengths and weaknesses of each and when each fails.",difficult,7 Evaluation | 2 Seven Stage Pipeline
+How does high-quality data collection fit into the overall LLM fine-tuning pipeline?,moderate,3 Data Preparation
+Explain alerting mechanisms and thresholds in the context of fine-tuning LLMs.,moderate,9 Monitoring
+In which chapter of the guide is Mixture of Experts (MoE) discussed?,simple,6 Fine-Tuning
+Name the main idea behind data collection.,simple,3 Data Preparation
+What common mistakes occur with fine-tuning for audio and speech processing and how can they be avoided?,moderate,10+ Advanced Topics
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of WebLLM and fine-tuning with multiple adapters and the cost, latency and maintenance trade-offs.",difficult,8 Deployment | 6 Fine-Tuning
+Why is statistical language models important when fine-tuning a large language model?,moderate,1 Introduction
+Define task-specific fine-tuning.,simple,6 Fine-Tuning
+mixture of experts (moe) - what is it,simple,6 Fine-Tuning
+Explain loss functions in the context of fine-tuning LLMs.,moderate,5 Training Setup
+how does overfitting work,moderate,7 Evaluation
+What does the guide explain about fine-tuning for audio and speech processing?,moderate,10+ Advanced Topics
+When would you choose Mixture of Agents (MoA) over prompt monitoring?,moderate,6 Fine-Tuning | 9 Monitoring
+"Briefly, what do we mean by supervised fine-tuning (SFT)?",simple,1 Introduction
+"How do quantised LLMs and alerting mechanisms and thresholds interact in a full fine-tuning workflow, and what failure modes arise when they are combined?",difficult,8 Deployment | 9 Monitoring
+Can you define monitoring and maintenance briefly?,simple,2 Seven Stage Pipeline
+Describe how the AdaGrad optimiser affects model quality.,moderate,5 Training Setup
+"Compare benchmarking fine-tuned LLMs and data annotation in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,7 Evaluation | 3 Data Preparation
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of grid search for hyperparameters and QLoRA and the cost, latency and maintenance trade-offs.",difficult,5 Training Setup | 6 Fine-Tuning
+"Critically evaluate whether data collection can replace pre-training, citing the strengths and weaknesses of each and when each fails.",difficult,3 Data Preparation | 1 Introduction
+What is the difference between Bayesian optimisation for hyperparameters and Low-Rank Adaptation (LoRA)?,moderate,5 Training Setup | 6 Fine-Tuning
+Why is pre-trained language models important when fine-tuning a large language model?,moderate,1 Introduction
+Why is the AdaDelta optimiser important when fine-tuning a large language model?,moderate,5 Training Setup
+Define noisy gradients.,simple,7 Evaluation
+Define loss functions,simple,5 Training Setup
+How does on-premises GPU-based LLM deployment fit into the overall LLM fine-tuning pipeline?,moderate,8 Deployment
+Summarise the role of multimodal LLMs in fine-tuning.,moderate,10+ Advanced Topics
+Is model initialisation covered in the fine-tuning guide?,simple,2 Seven Stage Pipeline
+What is ShieldGemma?,simple,7 Evaluation
+DoRA (weight-decomposed low-rank adaptation) - what is it?,simple,6 Fine-Tuning
+Name the main idea behind monitoring and maintenance.,simple,2 Seven Stage Pipeline
+Explain stochastic gradient descent (SGD) in the context of fine-tuning LLMs.,moderate,5 Training Setup
+"Compare dataset preparation and statistical language models in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,2 Seven Stage Pipeline | 1 Introduction
+When would you choose on-premises GPU-based LLM deployment over the AdaDelta optimiser?,moderate,8 Deployment | 5 Training Setup
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of stochastic gradient descent (SGD) and large language models and the cost, latency and maintenance trade-offs.",difficult,5 Training Setup | 1 Introduction
+Give a one-line definition of the AdaDelta optimiser.,simple,5 Training Setup
+What are the main benefits and limitations of the AdamW optimiser?,moderate,5 Training Setup
+functional monitoring - what is it,simple,9 Monitoring
+What best practices does the guide recommend regarding the traditional RAG pipeline?,moderate,1 Introduction
+Describe how instruction fine-tuning affects model quality.,moderate,1 Introduction
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of inference optimisation and high-quality data collection and the cost, latency and maintenance trade-offs.",difficult,8 Deployment | 3 Data Preparation
+"If dataset preparation degrades model quality, how would you diagnose whether the cause lies in Retrieval Augmented Generation (RAG), and what experiments would you run?",difficult,2 Seven Stage Pipeline | 1 Introduction
+"How does the choice of inference optimisation change the requirements for data augmentation, and how would you validate that the combination generalises?",difficult,8 Deployment | 3 Data Preparation
+What is the purpose of data preprocessing and formatting?,simple,3 Data Preparation
+What is the difference between pre-trained language models and Direct Preference Optimisation (DPO)?,moderate,1 Introduction | 6 Fine-Tuning
+"Compare data annotation and partial versus full fine-tuning in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,3 Data Preparation | 2 Seven Stage Pipeline
+"How do unsupervised fine-tuning and fine-tuning with multiple adapters interact in a full fine-tuning workflow, and what failure modes arise when they are combined?",difficult,1 Introduction | 6 Fine-Tuning
+"Evaluate the risks to privacy, scalability and accountability when applying challenges in model initialisation together with instruction fine-tuning, and propose mitigations.",difficult,4 Model Initialisation | 1 Introduction
+"Critically evaluate whether Direct Preference Optimisation (DPO) can replace model initialisation, citing the strengths and weaknesses of each and when each fails.",difficult,6 Fine-Tuning | 2 Seven Stage Pipeline
+Summarise the role of the Adam optimiser in fine-tuning.,moderate,5 Training Setup
+"How do dataset preparation and cross-entropy loss interact in a full fine-tuning workflow, and what failure modes arise when they are combined?",difficult,2 Seven Stage Pipeline | 7 Evaluation
+"How do Mixture of Agents (MoA) and ethical data handling interact in a full fine-tuning workflow, and what failure modes arise when they are combined?",difficult,6 Fine-Tuning | 3 Data Preparation
+Give a one-line definition of fine-tuning with multiple adapters.,simple,6 Fine-Tuning
+How does pruning LLMs work?,moderate,6 Fine-Tuning
+Explain Half Fine-Tuning (HFT) in the context of fine-tuning LLMs.,moderate,6 Fine-Tuning
+Define Low-Rank Adaptation (LoRA).,simple,6 Fine-Tuning
+What is Mixture of Agents (MoA)?,simple,6 Fine-Tuning
+"should we use rag or fine-tuning for a fast-changing knowledge base? reason through the role of dora (weight-decomposed low-rank adaptation) and mini-batch gradient descent and the cost, latency and maintenance trade-offs",difficult,6 Fine-Tuning | 5 Training Setup
+Define the AdaDelta optimiser.,simple,5 Training Setup
+"Briefly, what do we mean by DoRA (weight-decomposed low-rank adaptation)?",simple,6 Fine-Tuning
+"Evaluate the risks to privacy, scalability and accountability when applying data preprocessing and formatting together with on-premises GPU-based LLM deployment, and propose mitigations.",difficult,3 Data Preparation | 8 Deployment
+Can you define domain-specific fine-tuning briefly?,simple,6 Fine-Tuning
+What does the guide explain about unsupervised fine-tuning?,moderate,1 Introduction
+How does high-quality data collection compare to noisy gradients?,moderate,3 Data Preparation | 7 Evaluation
+"How do DoRA (weight-decomposed low-rank adaptation) and WebGPU-based LLM deployment interact in a full fine-tuning workflow, and what failure modes arise when they are combined?",difficult,6 Fine-Tuning | 8 Deployment
+what challenges should i expect when dealing with half fine-tuning (hft),moderate,6 Fine-Tuning
+What common mistakes occur with the seven-stage fine-tuning pipeline and how can they be avoided?,moderate,2 Seven Stage Pipeline
+Why is benchmarking fine-tuned LLMs important when fine-tuning a large language model?,moderate,7 Evaluation
+"If Mixture of Experts (MoE) degrades model quality, how would you diagnose whether the cause lies in handling data imbalance, and what experiments would you run?",difficult,6 Fine-Tuning | 3 Data Preparation
+Is parameter-efficient fine-tuning (PEFT) covered in the fine-tuning guide?,simple,6 Fine-Tuning
+how are data preprocessing and formatting and the traditional RAG pipeline related?,moderate,3 Data Preparation | 1 Introduction
+what is benchmarking fine-tuned llms,simple,7 Evaluation
+How does fine-tuning fit into the overall LLM fine-tuning pipeline?,moderate,1 Introduction
+What does the guide say fine-tuning is,simple,1 Introduction
+how are safety benchmarks for fine-tuned llms and shieldgemma related,moderate,7 Evaluation | 7 Evaluation
+Name the main idea behind stochastic gradient descent (SGD).,simple,5 Training Setup
+"Evaluate the risks to privacy, scalability and accountability when applying high-quality data collection together with large language models, and propose mitigations.",difficult,3 Data Preparation | 1 Introduction
+How does dataset splitting compare to functional monitoring?,moderate,3 Data Preparation | 9 Monitoring
+What is the purpose of hyperparameter tuning?,simple,5 Training Setup
+Is supervised fine-tuning (SFT) covered in the fine-tuning guide?,simple,1 Introduction
+"Evaluate the risks to privacy, scalability and accountability when applying cloud-based providers for LLM deployment together with advanced LLM evaluation metrics, and propose mitigations.",difficult,8 Deployment | 7 Evaluation
+What is the difference between pruning LLMs and Proximal Policy Optimisation (PPO)?,moderate,6 Fine-Tuning | 6 Fine-Tuning
+Can you define large language models briefly?,simple,1 Introduction
+What does the guide say validation loops is?,simple,7 Evaluation
+"Briefly, what do we mean by monitoring and maintenance?",simple,2 Seven Stage Pipeline
+What are the main benefits and limitations of response monitoring?,moderate,9 Monitoring
+What is partial versus full fine-tuning?,simple,2 Seven Stage Pipeline
+"Compare the challenges of serving RAG and stochastic gradient descent (SGD) in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,1 Introduction | 5 Training Setup
+how are mini-batch gradient descent and QLoRA related?,moderate,5 Training Setup | 6 Fine-Tuning
+"Design an end-to-end strategy that integrates high-quality data collection with partial versus full fine-tuning for a production LLM, covering data, training, evaluation and monitoring.",difficult,3 Data Preparation | 2 Seven Stage Pipeline
+Describe how hyperparameter tuning affects model quality.,moderate,5 Training Setup
+can you define tools and libraries for model initialisation briefly,simple,4 Model Initialisation
+distributed torrent-style LLM deployment - what is it?,simple,8 Deployment
+How does response monitoring work,moderate,9 Monitoring
+"A company has 5,000 labeled domain documents and a single 24GB GPU. Using advanced LLM evaluation metrics and response monitoring, how would you plan the complete fine-tuning pipeline from data preparation to deployment and monitoring?",difficult,7 Evaluation | 9 Monitoring
+Is partial versus full fine-tuning covered in the fine-tuning guide?,simple,2 Seven Stage Pipeline
+"How does the choice of the Mixtral 8x7B architecture change the requirements for response monitoring, and how would you validate that the combination generalises?",difficult,6 Fine-Tuning | 9 Monitoring
+"Design an end-to-end strategy that integrates accountability in LLM fine-tuning with the Mixtral 8x7B architecture for a production LLM, covering data, training, evaluation and monitoring.",difficult,10+ Advanced Topics | 6 Fine-Tuning
+What is the difference between adapters and partial versus full fine-tuning?,moderate,6 Fine-Tuning | 2 Seven Stage Pipeline
+What does the guide say the challenges of serving RAG is?,simple,1 Introduction
+grid search for hyperparameters - what is it?,simple,5 Training Setup
+How does WebLLM work?,moderate,8 Deployment
+In which chapter of the guide is Low-Rank Adaptation (LoRA) discussed?,simple,6 Fine-Tuning
+Synthesise what the guide says about multimodal LLMs and fine-tuning into a decision framework for choosing a fine-tuning approach.,difficult,10+ Advanced Topics | 1 Introduction
+"Critically evaluate whether dataset splitting can replace gradient descent, citing the strengths and weaknesses of each and when each fails.",difficult,3 Data Preparation | 5 Training Setup
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of gradient descent and the challenges of serving RAG and the cost, latency and maintenance trade-offs.",difficult,5 Training Setup | 1 Introduction
+What is the purpose of handling data imbalance?,simple,3 Data Preparation
+What common mistakes occur with DoRA (weight-decomposed low-rank adaptation) and how can they be avoided?,moderate,6 Fine-Tuning
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of alerting mechanisms and thresholds and dataset preparation and the cost, latency and maintenance trade-offs.",difficult,9 Monitoring | 2 Seven Stage Pipeline
+what is the adagrad optimiser,simple,5 Training Setup
+Describe how Mixture of Agents (MoA) affects model quality.,moderate,6 Fine-Tuning
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of accountability in LLM fine-tuning and safety benchmarks for fine-tuned LLMs and the cost, latency and maintenance trade-offs.",difficult,10+ Advanced Topics | 7 Evaluation
+Is data preprocessing and formatting covered in the fine-tuning guide,simple,3 Data Preparation
+In which chapter of the guide is dataset preparation discussed?,simple,2 Seven Stage Pipeline
+"Compare neural language models and hyperparameter tuning in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,1 Introduction | 5 Training Setup
+data collection - what is it?,simple,3 Data Preparation
+how are supervised fine-tuning (SFT) and partial versus full fine-tuning related?,moderate,1 Introduction | 2 Seven Stage Pipeline
+"Critically evaluate whether the AdaGrad optimiser can replace the RMSprop optimiser, citing the strengths and weaknesses of each and when each fails.",difficult,5 Training Setup | 5 Training Setup
+In which chapter of the guide is the Adam optimiser discussed?,simple,5 Training Setup
+What common mistakes occur with dataset splitting and how can they be avoided?,moderate,3 Data Preparation
+How does the challenges of serving RAG fit into the overall LLM fine-tuning pipeline?,moderate,1 Introduction
+How does monitoring and maintenance compare to challenges in model initialisation?,moderate,2 Seven Stage Pipeline | 4 Model Initialisation
+Give a one-line definition of functional monitoring.,simple,9 Monitoring
+Define mini-batch gradient descent.,simple,5 Training Setup
+"Analyse the trade-offs between the Mixtral 8x7B architecture and fine-tuning for audio and speech processing when fine-tuning under a tight GPU memory budget, and justify a recommendation.",difficult,6 Fine-Tuning | 10+ Advanced Topics
+"Critically evaluate whether Lamini memory tuning can replace the AdaDelta optimiser, citing the strengths and weaknesses of each and when each fails.",difficult,6 Fine-Tuning | 5 Training Setup
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering DoRA (weight-decomposed low-rank adaptation) and Retrieval Augmented Generation (RAG), what would you change in the pipeline and how would you verify the fix?",difficult,6 Fine-Tuning | 1 Introduction
+What does the guide explain about alerting mechanisms and thresholds?,moderate,9 Monitoring
+How does synthetic data generation using LLMs fit into the overall LLM fine-tuning pipeline?,moderate,3 Data Preparation
+When would you choose overfitting over Direct Preference Optimisation (DPO),moderate,7 Evaluation | 6 Fine-Tuning
+Define supervised fine-tuning (SFT).,simple,1 Introduction
+Can you define advanced LLM evaluation metrics briefly?,simple,7 Evaluation
+Define fine-tuning for audio and speech processing.,simple,10+ Advanced Topics
+"How do Retrieval Augmented Generation (RAG) and pre-trained language models interact in a full fine-tuning workflow, and what failure modes arise when they are combined?",difficult,1 Introduction | 1 Introduction
+"Evaluate the risks to privacy, scalability and accountability when applying DoRA (weight-decomposed low-rank adaptation) together with Odds-Ratio Preference Optimization (ORPO), and propose mitigations.",difficult,6 Fine-Tuning | 6 Fine-Tuning
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of hyperparameter tuning and gradient descent and the cost, latency and maintenance trade-offs",difficult,5 Training Setup | 5 Training Setup
+"Compare the Adam optimiser and instruction fine-tuning in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,5 Training Setup | 1 Introduction
+What is the purpose of Retrieval Augmented Generation (RAG)?,simple,1 Introduction
+What does the guide say cross-entropy loss is?,simple,7 Evaluation
+How does Odds-Ratio Preference Optimization (ORPO) work?,moderate,6 Fine-Tuning
+What does the guide explain about grid search for hyperparameters?,moderate,5 Training Setup
+"We must align a model to human preferences while keeping inference cheap. Explain how training environment setup and Mixture of Experts (MoE) would each contribute, and where they conflict.",difficult,2 Seven Stage Pipeline | 6 Fine-Tuning
+"Briefly, what do we mean by parameter-efficient fine-tuning (PEFT)?",simple,6 Fine-Tuning
+In which chapter of the guide is data annotation discussed?,simple,3 Data Preparation
+Define prompt monitoring.,simple,9 Monitoring
+Give a one-line definition of cloud-based providers for LLM deployment.,simple,8 Deployment
+What best practices does the guide recommend regarding DoRA (weight-decomposed low-rank adaptation)?,moderate,6 Fine-Tuning
+"We must align a model to human preferences while keeping inference cheap. Explain how fine-tuning and distributed torrent-style LLM deployment would each contribute, and where they conflict.",difficult,1 Introduction | 8 Deployment
+What is the purpose of partial versus full fine-tuning?,simple,2 Seven Stage Pipeline
+Name the main idea behind Retrieval Augmented Generation (RAG).,simple,1 Introduction
+Describe how alerting mechanisms and thresholds affects model quality.,moderate,9 Monitoring
+How does WebGPU-based LLM deployment compare to scalability challenges in fine-tuning?,moderate,8 Deployment | 10+ Advanced Topics
+Define large language models.,simple,1 Introduction
+Can you define pre-training briefly?,simple,1 Introduction
+Synthesise what the guide says about challenges in model initialisation and training loss curves into a decision framework for choosing a fine-tuning approach.,difficult,4 Model Initialisation | 7 Evaluation
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of task-specific fine-tuning and inference optimisation and the cost, latency and maintenance trade-offs.",difficult,6 Fine-Tuning | 8 Deployment
+"A company has 5,000 labeled domain documents and a single 24GB GPU. Using the challenges of serving RAG and fine-tuning with multiple adapters, how would you plan the complete fine-tuning pipeline from data preparation to deployment and monitoring?",difficult,1 Introduction | 6 Fine-Tuning
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of advanced LLM evaluation metrics and benchmarking fine-tuned LLMs and the cost, latency and maintenance trade-offs.",difficult,7 Evaluation | 7 Evaluation
+"Analyse the trade-offs between cloud-based providers for LLM deployment and Direct Preference Optimisation (DPO) when fine-tuning under a tight GPU memory budget, and justify a recommendation.",difficult,8 Deployment | 6 Fine-Tuning
+What is the difference between domain-specific fine-tuning and supervised fine-tuning (SFT)?,moderate,6 Fine-Tuning | 1 Introduction
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering the challenges of serving RAG and partial versus full fine-tuning, what would you change in the pipeline and how would you verify the fix?",difficult,1 Introduction | 2 Seven Stage Pipeline
+Name the main idea behind statistical language models.,simple,1 Introduction
+"How do functional monitoring and model deployment interact in a full fine-tuning workflow, and what failure modes arise when they are combined?",difficult,9 Monitoring | 2 Seven Stage Pipeline
+what is the purpose of validation loops,simple,7 Evaluation
+"Compare domain-specific fine-tuning and WebGPU-based LLM deployment in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,6 Fine-Tuning | 8 Deployment
+In which chapter of the guide is on-premises GPU-based LLM deployment discussed?,simple,8 Deployment
+"Briefly, what do we mean by prompt monitoring?",simple,9 Monitoring
+Describe how Bayesian optimisation for hyperparameters affects model quality.,moderate,5 Training Setup
+Is the AdaGrad optimiser covered in the fine-tuning guide?,simple,5 Training Setup
+"Design an end-to-end strategy that integrates multimodal LLMs with the challenges of serving RAG for a production LLM, covering data, training, evaluation and monitoring.",difficult,10+ Advanced Topics | 1 Introduction
+"How does the choice of advanced LLM evaluation metrics change the requirements for WebLLM, and how would you validate that the combination generalises?",difficult,7 Evaluation | 8 Deployment
+What challenges should I expect when dealing with training loss curves?,moderate,7 Evaluation
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of Odds-Ratio Preference Optimization (ORPO) and the AdaGrad optimiser and the cost, latency and maintenance trade-offs.",difficult,6 Fine-Tuning | 5 Training Setup
+explain hyperparameter tuning in the context of fine-tuning llms,moderate,5 Training Setup
+What does the guide say Lamini memory tuning is?,simple,6 Fine-Tuning
+"Critically evaluate whether Half Fine-Tuning (HFT) can replace instruction fine-tuning, citing the strengths and weaknesses of each and when each fails.",difficult,6 Fine-Tuning | 1 Introduction
+Synthesise what the guide says about Lamini memory tuning and data preprocessing and formatting into a decision framework for choosing a fine-tuning approach.,difficult,6 Fine-Tuning | 3 Data Preparation
+"Briefly, what do we mean by benchmarking fine-tuned LLMs?",simple,7 Evaluation
+Is Bayesian optimisation for hyperparameters covered in the fine-tuning guide?,simple,5 Training Setup
+"If noisy gradients degrades model quality, how would you diagnose whether the cause lies in fine-tuning for audio and speech processing, and what experiments would you run?",difficult,7 Evaluation | 10+ Advanced Topics
+Why is pruning LLMs important when fine-tuning a large language model?,moderate,6 Fine-Tuning
+"How does the choice of Low-Rank Adaptation (LoRA) change the requirements for task-specific fine-tuning, and how would you validate that the combination generalises?",difficult,6 Fine-Tuning | 6 Fine-Tuning
+How does multimodal LLMs compare to ShieldGemma?,moderate,10+ Advanced Topics | 7 Evaluation
+supervised fine-tuning (SFT) - what is it?,simple,1 Introduction
+evaluation and validation - what is it?,simple,2 Seven Stage Pipeline
+"We must align a model to human preferences while keeping inference cheap. Explain how data annotation and loss functions would each contribute, and where they conflict.",difficult,3 Data Preparation | 5 Training Setup
+When would you choose dataset preparation over task-specific fine-tuning?,moderate,2 Seven Stage Pipeline | 6 Fine-Tuning
+How does the traditional RAG pipeline fit into the overall LLM fine-tuning pipeline,moderate,1 Introduction
+"A company has 5,000 labeled domain documents and a single 24GB GPU. Using scalability challenges in fine-tuning and domain-specific fine-tuning, how would you plan the complete fine-tuning pipeline from data preparation to deployment and monitoring?",difficult,10+ Advanced Topics | 6 Fine-Tuning
+"Evaluate the risks to privacy, scalability and accountability when applying WebGPU-based LLM deployment together with the AdaDelta optimiser, and propose mitigations.",difficult,8 Deployment | 5 Training Setup
+"A company has 5,000 labeled domain documents and a single 24GB GPU. Using training loss curves and ShieldGemma, how would you plan the complete fine-tuning pipeline from data preparation to deployment and monitoring?",difficult,7 Evaluation | 7 Evaluation
+"A company has 5,000 labeled domain documents and a single 24GB GPU. Using domain-specific fine-tuning and cross-entropy loss, how would you plan the complete fine-tuning pipeline from data preparation to deployment and monitoring?",difficult,6 Fine-Tuning | 7 Evaluation
+Give a one-line definition of large language models.,simple,1 Introduction
+"how do advanced llm evaluation metrics and fine-tuning interact in a full fine-tuning workflow, and what failure modes arise when they are combined",difficult,7 Evaluation | 1 Introduction
+"We must align a model to human preferences while keeping inference cheap. Explain how handling data imbalance and WildGuard would each contribute, and where they conflict.",difficult,3 Data Preparation | 7 Evaluation
+What challenges should I expect when dealing with on-premises GPU-based LLM deployment?,moderate,8 Deployment
+"Analyse the trade-offs between the seven-stage fine-tuning pipeline and pruning LLMs when fine-tuning under a tight GPU memory budget, and justify a recommendation.",difficult,2 Seven Stage Pipeline | 6 Fine-Tuning
+"Compare the AdamW optimiser and training environment setup in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,5 Training Setup | 2 Seven Stage Pipeline
+How does safety benchmarks for fine-tuned LLMs compare to monitoring and maintenance?,moderate,7 Evaluation | 2 Seven Stage Pipeline
+"A company has 5,000 labeled domain documents and a single 24GB GPU. Using data preprocessing and formatting and fine-tuning for audio and speech processing, how would you plan the complete fine-tuning pipeline from data preparation to deployment and monitoring?",difficult,3 Data Preparation | 10+ Advanced Topics
+What is the purpose of ShieldGemma?,simple,7 Evaluation
+"Evaluate the risks to privacy, scalability and accountability when applying on-premises GPU-based LLM deployment together with validation loops, and propose mitigations.",difficult,8 Deployment | 7 Evaluation
+Is challenges in model initialisation covered in the fine-tuning guide?,simple,4 Model Initialisation
+"Compare neural language models and the AdamW optimiser in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,1 Introduction | 5 Training Setup
+"A company has 5,000 labeled domain documents and a single 24GB GPU. Using validation loops and WebLLM, how would you plan the complete fine-tuning pipeline from data preparation to deployment and monitoring?",difficult,7 Evaluation | 8 Deployment
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering ShieldGemma and WebLLM, what would you change in the pipeline and how would you verify the fix?",difficult,7 Evaluation | 8 Deployment
+Can you define loss functions briefly?,simple,5 Training Setup
+Can you define the seven-stage fine-tuning pipeline briefly?,simple,2 Seven Stage Pipeline
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering privacy in LLM fine-tuning and the AdaGrad optimiser, what would you change in the pipeline and how would you verify the fix?",difficult,10+ Advanced Topics | 5 Training Setup
+Define cloud-based providers for LLM deployment,simple,8 Deployment
+When would you choose privacy in LLM fine-tuning over QLoRA?,moderate,10+ Advanced Topics | 6 Fine-Tuning
+What best practices does the guide recommend regarding parameter-efficient fine-tuning (PEFT)?,moderate,6 Fine-Tuning
+Synthesise what the guide says about prompt monitoring and monitoring and maintenance into a decision framework for choosing a fine-tuning approach.,difficult,9 Monitoring | 2 Seven Stage Pipeline
+Describe how Low-Rank Adaptation (LoRA) affects model quality.,moderate,6 Fine-Tuning
+"Critically evaluate whether the AdamW optimiser can replace Mixture of Experts (MoE), citing the strengths and weaknesses of each and when each fails.",difficult,5 Training Setup | 6 Fine-Tuning
+"If validation loops degrades model quality, how would you diagnose whether the cause lies in cross-entropy loss, and what experiments would you run?",difficult,7 Evaluation | 7 Evaluation
+Is hyperparameter tuning covered in the fine-tuning guide?,simple,5 Training Setup
+Give a one-line definition of parameter-efficient fine-tuning (PEFT).,simple,6 Fine-Tuning
+Define the AdamW optimiser.,simple,5 Training Setup
+How does task-specific fine-tuning compare to alerting mechanisms and thresholds?,moderate,6 Fine-Tuning | 9 Monitoring
+"Design an end-to-end strategy that integrates high-quality data collection with alerting mechanisms and thresholds for a production LLM, covering data, training, evaluation and monitoring.",difficult,3 Data Preparation | 9 Monitoring
+What is the purpose of safety benchmarks for fine-tuned LLMs?,simple,7 Evaluation
+What common mistakes occur with WebGPU-based LLM deployment and how can they be avoided?,moderate,8 Deployment
+"Compare Bayesian optimisation for hyperparameters and dataset splitting in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,5 Training Setup | 3 Data Preparation
+"If cloud-based providers for LLM deployment degrades model quality, how would you diagnose whether the cause lies in Lamini memory tuning, and what experiments would you run?",difficult,8 Deployment | 6 Fine-Tuning
+Give a one-line definition of WebGPU-based LLM deployment.,simple,8 Deployment
+"Analyse the trade-offs between the seven-stage fine-tuning pipeline and overfitting when fine-tuning under a tight GPU memory budget, and justify a recommendation.",difficult,2 Seven Stage Pipeline | 7 Evaluation
+What does the guide say fine-tuning with multiple adapters is?,simple,6 Fine-Tuning
+Summarise the role of statistical language models in fine-tuning.,moderate,1 Introduction
+Explain Direct Preference Optimisation (DPO) in the context of fine-tuning LLMs.,moderate,6 Fine-Tuning
+what is Bayesian optimisation for hyperparameters,simple,5 Training Setup
+What is the purpose of the seven-stage fine-tuning pipeline?,simple,2 Seven Stage Pipeline
+"Evaluate the risks to privacy, scalability and accountability when applying evaluation and validation together with Low-Rank Adaptation (LoRA), and propose mitigations.",difficult,2 Seven Stage Pipeline | 6 Fine-Tuning
+What challenges should I expect when dealing with overfitting?,moderate,7 Evaluation
+What common mistakes occur with gradient descent and how can they be avoided?,moderate,5 Training Setup
+"How do Direct Preference Optimisation (DPO) and pre-trained language models interact in a full fine-tuning workflow, and what failure modes arise when they are combined?",difficult,6 Fine-Tuning | 1 Introduction
+"analyse the trade-offs between shieldgemma and advanced llm evaluation metrics when fine-tuning under a tight gpu memory budget, and justify a recommendation",difficult,7 Evaluation | 7 Evaluation
+Give a one-line definition of privacy in LLM fine-tuning.,simple,10+ Advanced Topics
+Explain Odds-Ratio Preference Optimization (ORPO) in the context of fine-tuning LLMs.,moderate,6 Fine-Tuning
+Is DoRA (weight-decomposed low-rank adaptation) covered in the fine-tuning guide,simple,6 Fine-Tuning
+Describe how unsupervised fine-tuning affects model quality.,moderate,1 Introduction
+Is noisy gradients covered in the fine-tuning guide?,simple,7 Evaluation
+"Evaluate the risks to privacy, scalability and accountability when applying fine-tuning together with ShieldGemma, and propose mitigations.",difficult,1 Introduction | 7 Evaluation
+how are quantised LLMs and inference optimisation related?,moderate,8 Deployment | 8 Deployment
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of Llama Guard and grid search for hyperparameters and the cost, latency and maintenance trade-offs.",difficult,7 Evaluation | 5 Training Setup
+Why is WebGPU-based LLM deployment important when fine-tuning a large language model?,moderate,8 Deployment
+Synthesise what the guide says about data preprocessing and formatting and quantised LLMs into a decision framework for choosing a fine-tuning approach.,difficult,3 Data Preparation | 8 Deployment
+Why is training environment setup important when fine-tuning a large language model?,moderate,2 Seven Stage Pipeline
+"Briefly, what do we mean by distributed torrent-style LLM deployment?",simple,8 Deployment
+Give a one-line definition of the AdaGrad optimiser.,simple,5 Training Setup
+Synthesise what the guide says about hyperparameter tuning and privacy in LLM fine-tuning into a decision framework for choosing a fine-tuning approach.,difficult,5 Training Setup | 10+ Advanced Topics
+"We must align a model to human preferences while keeping inference cheap. Explain how ethical data handling and Half Fine-Tuning (HFT) would each contribute, and where they conflict.",difficult,3 Data Preparation | 6 Fine-Tuning
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of tools and libraries for model initialisation and Mixture of Experts (MoE) and the cost, latency and maintenance trade-offs",difficult,4 Model Initialisation | 6 Fine-Tuning
+Describe how large language models affects model quality.,moderate,1 Introduction
+What best practices does the guide recommend regarding tools and libraries for model initialisation?,moderate,4 Model Initialisation
+Describe how Llama Guard affects model quality.,moderate,7 Evaluation
+Define partial versus full fine-tuning.,simple,2 Seven Stage Pipeline
+What does the guide say supervised fine-tuning (SFT) is?,simple,1 Introduction
+Give a one-line definition of hyperparameter tuning.,simple,5 Training Setup
+"A company has 5,000 labeled domain documents and a single 24GB GPU. Using data annotation and training loss curves, how would you plan the complete fine-tuning pipeline from data preparation to deployment and monitoring?",difficult,3 Data Preparation | 7 Evaluation
+How does stochastic gradient descent (SGD) fit into the overall LLM fine-tuning pipeline?,moderate,5 Training Setup
+In which chapter of the guide is scalability challenges in fine-tuning discussed?,simple,10+ Advanced Topics
+"We must align a model to human preferences while keeping inference cheap. Explain how grid search for hyperparameters and multimodal LLMs would each contribute, and where they conflict.",difficult,5 Training Setup | 10+ Advanced Topics
+Can you define prompt monitoring briefly?,simple,9 Monitoring
+What challenges should I expect when dealing with the RMSprop optimiser?,moderate,5 Training Setup
+mini-batch gradient descent - what is it?,simple,5 Training Setup
+Define Mixture of Agents (MoA).,simple,6 Fine-Tuning
+What is the difference between WebGPU-based LLM deployment and fine-tuning with multiple adapters?,moderate,8 Deployment | 6 Fine-Tuning
+In which chapter of the guide is the AdamW optimiser discussed?,simple,5 Training Setup
+Give a one-line definition of Low-Rank Adaptation (LoRA).,simple,6 Fine-Tuning
+Define advanced LLM evaluation metrics.,simple,7 Evaluation
+How does data augmentation compare to quantised LLMs?,moderate,3 Data Preparation | 8 Deployment
+handling data imbalance - what is it,simple,3 Data Preparation
+What best practices does the guide recommend regarding data annotation?,moderate,3 Data Preparation
+"Compare validation loops and adapters in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,7 Evaluation | 6 Fine-Tuning
+"Evaluate the risks to privacy, scalability and accountability when applying unsupervised fine-tuning together with instruction fine-tuning, and propose mitigations.",difficult,1 Introduction | 1 Introduction
+"Design an end-to-end strategy that integrates pruning LLMs with on-premises GPU-based LLM deployment for a production LLM, covering data, training, evaluation and monitoring.",difficult,6 Fine-Tuning | 8 Deployment
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering monitoring and maintenance and fine-tuning, what would you change in the pipeline and how would you verify the fix?",difficult,2 Seven Stage Pipeline | 1 Introduction
+"Design an end-to-end strategy that integrates the seven-stage fine-tuning pipeline with the AdamW optimiser for a production LLM, covering data, training, evaluation and monitoring.",difficult,2 Seven Stage Pipeline | 5 Training Setup
+In which chapter of the guide is noisy gradients discussed?,simple,7 Evaluation
+What are the main benefits and limitations of QLoRA?,moderate,6 Fine-Tuning
+What is the difference between noisy gradients and response monitoring?,moderate,7 Evaluation | 9 Monitoring
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of dataset preparation and on-premises GPU-based LLM deployment and the cost, latency and maintenance trade-offs.",difficult,2 Seven Stage Pipeline | 8 Deployment
+"A company has 5,000 labeled domain documents and a single 24GB GPU. Using synthetic data generation using LLMs and monitoring and maintenance, how would you plan the complete fine-tuning pipeline from data preparation to deployment and monitoring?",difficult,3 Data Preparation | 2 Seven Stage Pipeline
+"Analyse the trade-offs between multimodal LLMs and the AdaGrad optimiser when fine-tuning under a tight GPU memory budget, and justify a recommendation.",difficult,10+ Advanced Topics | 5 Training Setup
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering prompt monitoring and model deployment, what would you change in the pipeline and how would you verify the fix?",difficult,9 Monitoring | 2 Seven Stage Pipeline
+In which chapter of the guide is task-specific fine-tuning discussed?,simple,6 Fine-Tuning
+What challenges should I expect when dealing with response monitoring?,moderate,9 Monitoring
+"Critically evaluate whether ShieldGemma can replace the Adam optimiser, citing the strengths and weaknesses of each and when each fails.",difficult,7 Evaluation | 5 Training Setup
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering evaluation and validation and training environment setup, what would you change in the pipeline and how would you verify the fix?",difficult,2 Seven Stage Pipeline | 2 Seven Stage Pipeline
+"We must align a model to human preferences while keeping inference cheap. Explain how adapters and Direct Preference Optimisation (DPO) would each contribute, and where they conflict",difficult,6 Fine-Tuning | 6 Fine-Tuning
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering the seven-stage fine-tuning pipeline and dataset preparation, what would you change in the pipeline and how would you verify the fix?",difficult,2 Seven Stage Pipeline | 2 Seven Stage Pipeline
+How does privacy in LLM fine-tuning compare to the Mixtral 8x7B architecture?,moderate,10+ Advanced Topics | 6 Fine-Tuning
+"Compare the AdamW optimiser and Proximal Policy Optimisation (PPO) in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,5 Training Setup | 6 Fine-Tuning
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering training loss curves and response monitoring, what would you change in the pipeline and how would you verify the fix",difficult,7 Evaluation | 9 Monitoring
+How does Mixture of Agents (MoA) fit into the overall LLM fine-tuning pipeline?,moderate,6 Fine-Tuning
+"Evaluate the risks to privacy, scalability and accountability when applying the RMSprop optimiser together with Lamini memory tuning, and propose mitigations.",difficult,5 Training Setup | 6 Fine-Tuning
+How does task-specific fine-tuning fit into the overall LLM fine-tuning pipeline?,moderate,6 Fine-Tuning
+fine-tuning with multiple adapters - what is it,simple,6 Fine-Tuning
+"How do the Adam optimiser and model deployment interact in a full fine-tuning workflow, and what failure modes arise when they are combined?",difficult,5 Training Setup | 2 Seven Stage Pipeline
+How does Proximal Policy Optimisation (PPO) compare to noisy gradients?,moderate,6 Fine-Tuning | 7 Evaluation
+What best practices does the guide recommend regarding high-quality data collection?,moderate,3 Data Preparation
+what is gradient descent,simple,5 Training Setup
+Synthesise what the guide says about model deployment and noisy gradients into a decision framework for choosing a fine-tuning approach.,difficult,2 Seven Stage Pipeline | 7 Evaluation
+Give a one-line definition of supervised fine-tuning (SFT).,simple,1 Introduction
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering fine-tuning and dataset splitting, what would you change in the pipeline and how would you verify the fix?",difficult,1 Introduction | 3 Data Preparation
+how are data annotation and training environment setup related?,moderate,3 Data Preparation | 2 Seven Stage Pipeline
+"How does the choice of the RMSprop optimiser change the requirements for loss functions, and how would you validate that the combination generalises?",difficult,5 Training Setup | 5 Training Setup
+How does overfitting compare to ethical data handling?,moderate,7 Evaluation | 3 Data Preparation
+"should we use rag or fine-tuning for a fast-changing knowledge base? reason through the role of handling data imbalance and the adadelta optimiser and the cost, latency and maintenance trade-offs",difficult,3 Data Preparation | 5 Training Setup
+"A company has 5,000 labeled domain documents and a single 24GB GPU. Using task-specific fine-tuning and cloud-based providers for LLM deployment, how would you plan the complete fine-tuning pipeline from data preparation to deployment and monitoring?",difficult,6 Fine-Tuning | 8 Deployment
+Define cross-entropy loss.,simple,7 Evaluation
+"compare tools and libraries for model initialisation and noisy gradients in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team",difficult,4 Model Initialisation | 7 Evaluation
+"Analyse the trade-offs between hyperparameter tuning and validation loops when fine-tuning under a tight GPU memory budget, and justify a recommendation.",difficult,5 Training Setup | 7 Evaluation
+What is mini-batch gradient descent?,simple,5 Training Setup
+Summarise the role of hyperparameter tuning in fine-tuning.,moderate,5 Training Setup
+What common mistakes occur with domain-specific fine-tuning and how can they be avoided,moderate,6 Fine-Tuning
+"If QLoRA degrades model quality, how would you diagnose whether the cause lies in dataset splitting, and what experiments would you run?",difficult,6 Fine-Tuning | 3 Data Preparation
+"Critically evaluate whether fine-tuning can replace Proximal Policy Optimisation (PPO), citing the strengths and weaknesses of each and when each fails.",difficult,1 Introduction | 6 Fine-Tuning
+What does the guide explain about Mixture of Experts (MoE)?,moderate,6 Fine-Tuning
+What is the purpose of training loss curves,simple,7 Evaluation
+Synthesise what the guide says about Retrieval Augmented Generation (RAG) and tools and libraries for model initialisation into a decision framework for choosing a fine-tuning approach,difficult,1 Introduction | 4 Model Initialisation
+How does fine-tuning with multiple adapters compare to Direct Preference Optimisation (DPO)?,moderate,6 Fine-Tuning | 6 Fine-Tuning
+Describe how cloud-based providers for LLM deployment affects model quality.,moderate,8 Deployment
+Name the main idea behind noisy gradients.,simple,7 Evaluation
+Summarise the role of functional monitoring in fine-tuning.,moderate,9 Monitoring
+What are the main benefits and limitations of monitoring and maintenance?,moderate,2 Seven Stage Pipeline
+Give a one-line definition of cross-entropy loss.,simple,7 Evaluation
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering functional monitoring and DoRA (weight-decomposed low-rank adaptation), what would you change in the pipeline and how would you verify the fix?",difficult,9 Monitoring | 6 Fine-Tuning
+"If Proximal Policy Optimisation (PPO) degrades model quality, how would you diagnose whether the cause lies in Odds-Ratio Preference Optimization (ORPO), and what experiments would you run?",difficult,6 Fine-Tuning | 6 Fine-Tuning
+What are the main benefits and limitations of Mixture of Experts (MoE)?,moderate,6 Fine-Tuning
+Why is ShieldGemma important when fine-tuning a large language model?,moderate,7 Evaluation
+What common mistakes occur with prompt monitoring and how can they be avoided?,moderate,9 Monitoring
+How does the seven-stage fine-tuning pipeline fit into the overall LLM fine-tuning pipeline?,moderate,2 Seven Stage Pipeline
+"If adapters degrades model quality, how would you diagnose whether the cause lies in neural language models, and what experiments would you run?",difficult,6 Fine-Tuning | 1 Introduction
+"Design an end-to-end strategy that integrates accountability in LLM fine-tuning with the seven-stage fine-tuning pipeline for a production LLM, covering data, training, evaluation and monitoring.",difficult,10+ Advanced Topics | 2 Seven Stage Pipeline
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of Lamini memory tuning and safety benchmarks for fine-tuned LLMs and the cost, latency and maintenance trade-offs.",difficult,6 Fine-Tuning | 7 Evaluation
+Explain tools and libraries for model initialisation in the context of fine-tuning LLMs.,moderate,4 Model Initialisation
+"Compare quantised LLMs and high-quality data collection in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,8 Deployment | 3 Data Preparation
+"How does the choice of challenges in model initialisation change the requirements for Lamini memory tuning, and how would you validate that the combination generalises?",difficult,4 Model Initialisation | 6 Fine-Tuning
+how are the Mixtral 8x7B architecture and Proximal Policy Optimisation (PPO) related?,moderate,6 Fine-Tuning | 6 Fine-Tuning
+"Analyse the trade-offs between distributed torrent-style LLM deployment and tools and libraries for model initialisation when fine-tuning under a tight GPU memory budget, and justify a recommendation.",difficult,8 Deployment | 4 Model Initialisation
+How does the challenges of serving RAG compare to multimodal LLMs?,moderate,1 Introduction | 10+ Advanced Topics
+"If gradient descent degrades model quality, how would you diagnose whether the cause lies in response monitoring, and what experiments would you run?",difficult,5 Training Setup | 9 Monitoring
+When would you choose Proximal Policy Optimisation (PPO) over benchmarking fine-tuned LLMs,moderate,6 Fine-Tuning | 7 Evaluation
+"If Direct Preference Optimisation (DPO) degrades model quality, how would you diagnose whether the cause lies in neural language models, and what experiments would you run?",difficult,6 Fine-Tuning | 1 Introduction
+what is instruction fine-tuning,simple,1 Introduction
+"Briefly, what do we mean by the RMSprop optimiser?",simple,5 Training Setup
+"A company has 5,000 labeled domain documents and a single 24GB GPU. Using QLoRA and WildGuard, how would you plan the complete fine-tuning pipeline from data preparation to deployment and monitoring?",difficult,6 Fine-Tuning | 7 Evaluation
+"Briefly, what do we mean by WildGuard?",simple,7 Evaluation
+What are the main benefits and limitations of parameter-efficient fine-tuning (PEFT)?,moderate,6 Fine-Tuning
+In which chapter of the guide is distributed torrent-style LLM deployment discussed?,simple,8 Deployment
+What best practices does the guide recommend regarding Low-Rank Adaptation (LoRA)?,moderate,6 Fine-Tuning
+name the main idea behind distributed torrent-style llm deployment,simple,8 Deployment
+What are the main benefits and limitations of WebLLM?,moderate,8 Deployment
+"Compare challenges in model initialisation and the seven-stage fine-tuning pipeline in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,4 Model Initialisation | 2 Seven Stage Pipeline
+"We must align a model to human preferences while keeping inference cheap. Explain how partial versus full fine-tuning and loss functions would each contribute, and where they conflict.",difficult,2 Seven Stage Pipeline | 5 Training Setup
+"Critically evaluate whether fine-tuning for audio and speech processing can replace challenges in model initialisation, citing the strengths and weaknesses of each and when each fails.",difficult,10+ Advanced Topics | 4 Model Initialisation
+"Evaluate the risks to privacy, scalability and accountability when applying data collection together with on-premises GPU-based LLM deployment, and propose mitigations.",difficult,3 Data Preparation | 8 Deployment
+"how does the choice of data collection change the requirements for mixture of agents (moa), and how would you validate that the combination generalises",difficult,3 Data Preparation | 6 Fine-Tuning
+"Briefly, what do we mean by pre-training",simple,1 Introduction
+When would you choose data collection over Direct Preference Optimisation (DPO)?,moderate,3 Data Preparation | 6 Fine-Tuning
+What is the purpose of Low-Rank Adaptation (LoRA)?,simple,6 Fine-Tuning
+"Compare Mixture of Agents (MoA) and neural language models in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,6 Fine-Tuning | 1 Introduction
+How does adapters fit into the overall LLM fine-tuning pipeline?,moderate,6 Fine-Tuning
+"Analyse the trade-offs between the RMSprop optimiser and model initialisation when fine-tuning under a tight GPU memory budget, and justify a recommendation.",difficult,5 Training Setup | 2 Seven Stage Pipeline
+What does the guide explain about cross-entropy loss?,moderate,7 Evaluation
+What common mistakes occur with statistical language models and how can they be avoided?,moderate,1 Introduction
+"We must align a model to human preferences while keeping inference cheap. Explain how Half Fine-Tuning (HFT) and ShieldGemma would each contribute, and where they conflict.",difficult,6 Fine-Tuning | 7 Evaluation
+Give a one-line definition of multimodal LLMs.,simple,10+ Advanced Topics
+How does the Mixtral 8x7B architecture compare to handling data imbalance?,moderate,6 Fine-Tuning | 3 Data Preparation
+"If stochastic gradient descent (SGD) degrades model quality, how would you diagnose whether the cause lies in the RMSprop optimiser, and what experiments would you run",difficult,5 Training Setup | 5 Training Setup
+how does model initialisation fit into the overall llm fine-tuning pipeline,moderate,2 Seven Stage Pipeline
+"We must align a model to human preferences while keeping inference cheap. Explain how stochastic gradient descent (SGD) and prompt monitoring would each contribute, and where they conflict.",difficult,5 Training Setup | 9 Monitoring
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering instruction fine-tuning and high-quality data collection, what would you change in the pipeline and how would you verify the fix?",difficult,1 Introduction | 3 Data Preparation
+Give a one-line definition of the challenges of serving RAG.,simple,1 Introduction
+What is fine-tuning,simple,1 Introduction
+"A company has 5,000 labeled domain documents and a single 24GB GPU. Using response monitoring and safety benchmarks for fine-tuned LLMs, how would you plan the complete fine-tuning pipeline from data preparation to deployment and monitoring?",difficult,9 Monitoring | 7 Evaluation
+What challenges should I expect when dealing with functional monitoring?,moderate,9 Monitoring
+"Critically evaluate whether Mixture of Agents (MoA) can replace the Adam optimiser, citing the strengths and weaknesses of each and when each fails.",difficult,6 Fine-Tuning | 5 Training Setup
+Why is cloud-based providers for LLM deployment important when fine-tuning a large language model?,moderate,8 Deployment
+Synthesise what the guide says about data preprocessing and formatting and supervised fine-tuning (SFT) into a decision framework for choosing a fine-tuning approach.,difficult,3 Data Preparation | 1 Introduction
+What challenges should I expect when dealing with gradient descent?,moderate,5 Training Setup
+"We must align a model to human preferences while keeping inference cheap. Explain how statistical language models and the challenges of serving RAG would each contribute, and where they conflict.",difficult,1 Introduction | 1 Introduction
+"If safety benchmarks for fine-tuned LLMs degrades model quality, how would you diagnose whether the cause lies in dataset splitting, and what experiments would you run?",difficult,7 Evaluation | 3 Data Preparation
+"Briefly, what do we mean by unsupervised fine-tuning",simple,1 Introduction
+"how do model deployment and gradient descent interact in a full fine-tuning workflow, and what failure modes arise when they are combined",difficult,2 Seven Stage Pipeline | 5 Training Setup
+Synthesise what the guide says about pre-training and safety benchmarks for fine-tuned LLMs into a decision framework for choosing a fine-tuning approach.,difficult,1 Introduction | 7 Evaluation
+How does evaluation and validation compare to cross-entropy loss?,moderate,2 Seven Stage Pipeline | 7 Evaluation
+Describe how distributed torrent-style LLM deployment affects model quality.,moderate,8 Deployment
+explain large language models in the context of fine-tuning llms,moderate,1 Introduction
+Define overfitting.,simple,7 Evaluation
+Is DoRA (weight-decomposed low-rank adaptation) covered in the fine-tuning guide?,simple,6 Fine-Tuning
+"Evaluate the risks to privacy, scalability and accountability when applying Bayesian optimisation for hyperparameters together with training environment setup, and propose mitigations.",difficult,5 Training Setup | 2 Seven Stage Pipeline
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of benchmarking fine-tuned LLMs and hyperparameter tuning and the cost, latency and maintenance trade-offs.",difficult,7 Evaluation | 5 Training Setup
+Define adapters.,simple,6 Fine-Tuning
+Can you define on-premises GPU-based LLM deployment briefly?,simple,8 Deployment
+Is high-quality data collection covered in the fine-tuning guide?,simple,3 Data Preparation
+"How does the choice of high-quality data collection change the requirements for data collection, and how would you validate that the combination generalises",difficult,3 Data Preparation | 3 Data Preparation
+Give a one-line definition of on-premises GPU-based LLM deployment.,simple,8 Deployment
+When would you choose training loss curves over large language models?,moderate,7 Evaluation | 1 Introduction
+"How do accountability in LLM fine-tuning and alerting mechanisms and thresholds interact in a full fine-tuning workflow, and what failure modes arise when they are combined?",difficult,10+ Advanced Topics | 9 Monitoring
+What challenges should I expect when dealing with dataset splitting?,moderate,3 Data Preparation
+Can you define the Adam optimiser briefly?,simple,5 Training Setup
+how are hyperparameter tuning and Mixture of Agents (MoA) related?,moderate,5 Training Setup | 6 Fine-Tuning
+"Compare unsupervised fine-tuning and model initialisation in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,1 Introduction | 2 Seven Stage Pipeline
+When would you choose evaluation and validation over random search for hyperparameters?,moderate,2 Seven Stage Pipeline | 5 Training Setup
+How does model initialisation work?,moderate,2 Seven Stage Pipeline
+What challenges should I expect when dealing with ShieldGemma?,moderate,7 Evaluation
+Is pre-training covered in the fine-tuning guide?,simple,1 Introduction
+What does the guide say multimodal LLMs is?,simple,10+ Advanced Topics
+When would you choose the Adam optimiser over fine-tuning for audio and speech processing?,moderate,5 Training Setup | 10+ Advanced Topics
+What is the difference between Half Fine-Tuning (HFT) and QLoRA?,moderate,6 Fine-Tuning | 6 Fine-Tuning
+Give a one-line definition of pre-training.,simple,1 Introduction
+"How do data annotation and overfitting interact in a full fine-tuning workflow, and what failure modes arise when they are combined?",difficult,3 Data Preparation | 7 Evaluation
+How does parameter-efficient fine-tuning (PEFT) fit into the overall LLM fine-tuning pipeline?,moderate,6 Fine-Tuning
+Synthesise what the guide says about QLoRA and evaluation and validation into a decision framework for choosing a fine-tuning approach.,difficult,6 Fine-Tuning | 2 Seven Stage Pipeline
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of evaluation and validation and large language models and the cost, latency and maintenance trade-offs.",difficult,2 Seven Stage Pipeline | 1 Introduction
+Define high-quality data collection.,simple,3 Data Preparation
+"Analyse the trade-offs between Retrieval Augmented Generation (RAG) and data augmentation when fine-tuning under a tight GPU memory budget, and justify a recommendation.",difficult,1 Introduction | 3 Data Preparation
+Direct Preference Optimisation (DPO) - what is it?,simple,6 Fine-Tuning
+Is model deployment covered in the fine-tuning guide?,simple,2 Seven Stage Pipeline
+In which chapter of the guide is pre-training discussed?,simple,1 Introduction
+Explain on-premises GPU-based LLM deployment in the context of fine-tuning LLMs.,moderate,8 Deployment
+what best practices does the guide recommend regarding loss functions,moderate,5 Training Setup
+is pre-training covered in the fine-tuning guide,simple,1 Introduction
+"Evaluate the risks to privacy, scalability and accountability when applying handling data imbalance together with pruning LLMs, and propose mitigations",difficult,3 Data Preparation | 6 Fine-Tuning
+What is the purpose of advanced LLM evaluation metrics?,simple,7 Evaluation
+"How do on-premises GPU-based LLM deployment and adapters interact in a full fine-tuning workflow, and what failure modes arise when they are combined?",difficult,8 Deployment | 6 Fine-Tuning
+What is advanced LLM evaluation metrics?,simple,7 Evaluation
+"A company has 5,000 labeled domain documents and a single 24GB GPU. Using Low-Rank Adaptation (LoRA) and task-specific fine-tuning, how would you plan the complete fine-tuning pipeline from data preparation to deployment and monitoring?",difficult,6 Fine-Tuning | 6 Fine-Tuning
+how are safety benchmarks for fine-tuned LLMs and evaluation and validation related?,moderate,7 Evaluation | 2 Seven Stage Pipeline
+"Compare benchmarking fine-tuned LLMs and cloud-based providers for LLM deployment in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,7 Evaluation | 8 Deployment
+"Analyse the trade-offs between partial versus full fine-tuning and hyperparameter tuning when fine-tuning under a tight GPU memory budget, and justify a recommendation.",difficult,2 Seven Stage Pipeline | 5 Training Setup
+"How does the choice of adapters change the requirements for Direct Preference Optimisation (DPO), and how would you validate that the combination generalises?",difficult,6 Fine-Tuning | 6 Fine-Tuning
+Is Half Fine-Tuning (HFT) covered in the fine-tuning guide?,simple,6 Fine-Tuning
+"critically evaluate whether large language models can replace high-quality data collection, citing the strengths and weaknesses of each and when each fails",difficult,1 Introduction | 3 Data Preparation
+Is grid search for hyperparameters covered in the fine-tuning guide?,simple,5 Training Setup
+"We must align a model to human preferences while keeping inference cheap. Explain how response monitoring and scalability challenges in fine-tuning would each contribute, and where they conflict.",difficult,9 Monitoring | 10+ Advanced Topics
+When would you choose Direct Preference Optimisation (DPO) over fine-tuning?,moderate,6 Fine-Tuning | 1 Introduction
+what common mistakes occur with overfitting and how can they be avoided,moderate,7 Evaluation
+"Design an end-to-end strategy that integrates fine-tuning with multiple adapters with pre-trained language models for a production LLM, covering data, training, evaluation and monitoring.",difficult,6 Fine-Tuning | 1 Introduction
+"Evaluate the risks to privacy, scalability and accountability when applying safety benchmarks for fine-tuned LLMs together with domain-specific fine-tuning, and propose mitigations.",difficult,7 Evaluation | 6 Fine-Tuning
+"Analyse the trade-offs between the Adam optimiser and evaluation and validation when fine-tuning under a tight GPU memory budget, and justify a recommendation.",difficult,5 Training Setup | 2 Seven Stage Pipeline
+In which chapter of the guide is model initialisation discussed?,simple,2 Seven Stage Pipeline
+What is loss functions?,simple,5 Training Setup
+In which chapter of the guide is overfitting discussed?,simple,7 Evaluation
+What best practices does the guide recommend regarding stochastic gradient descent (SGD)?,moderate,5 Training Setup
+"A company has 5,000 labeled domain documents and a single 24GB GPU. Using stochastic gradient descent (SGD) and loss functions, how would you plan the complete fine-tuning pipeline from data preparation to deployment and monitoring?",difficult,5 Training Setup | 5 Training Setup
+Why is loss functions important when fine-tuning a large language model?,moderate,5 Training Setup
+"Critically evaluate whether high-quality data collection can replace safety benchmarks for fine-tuned LLMs, citing the strengths and weaknesses of each and when each fails.",difficult,3 Data Preparation | 7 Evaluation
+How does Mixture of Agents (MoA) work?,moderate,6 Fine-Tuning
+"analyse the trade-offs between the adagrad optimiser and grid search for hyperparameters when fine-tuning under a tight gpu memory budget, and justify a recommendation",difficult,5 Training Setup | 5 Training Setup
+"Evaluate the risks to privacy, scalability and accountability when applying WebGPU-based LLM deployment together with response monitoring, and propose mitigations.",difficult,8 Deployment | 9 Monitoring
+Give a one-line definition of adapters.,simple,6 Fine-Tuning
+How does fine-tuning with multiple adapters fit into the overall LLM fine-tuning pipeline?,moderate,6 Fine-Tuning
+Why is unsupervised fine-tuning important when fine-tuning a large language model?,moderate,1 Introduction
+Can you define gradient descent briefly?,simple,5 Training Setup
+"We must align a model to human preferences while keeping inference cheap. Explain how supervised fine-tuning (SFT) and parameter-efficient fine-tuning (PEFT) would each contribute, and where they conflict.",difficult,1 Introduction | 6 Fine-Tuning
+"Design an end-to-end strategy that integrates Proximal Policy Optimisation (PPO) with gradient descent for a production LLM, covering data, training, evaluation and monitoring.",difficult,6 Fine-Tuning | 5 Training Setup
+Describe how benchmarking fine-tuned LLMs affects model quality.,moderate,7 Evaluation
+Define hyperparameter tuning.,simple,5 Training Setup
+Name the main idea behind handling data imbalance.,simple,3 Data Preparation
+WildGuard - what is it?,simple,7 Evaluation
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of instruction fine-tuning and the RMSprop optimiser and the cost, latency and maintenance trade-offs.",difficult,1 Introduction | 5 Training Setup
+how are Mixture of Agents (MoA) and Lamini memory tuning related?,moderate,6 Fine-Tuning | 6 Fine-Tuning
+What common mistakes occur with accountability in LLM fine-tuning and how can they be avoided,moderate,10+ Advanced Topics
+Explain parameter-efficient fine-tuning (PEFT) in the context of fine-tuning LLMs.,moderate,6 Fine-Tuning
+What best practices does the guide recommend regarding the seven-stage fine-tuning pipeline?,moderate,2 Seven Stage Pipeline
+Name the main idea behind instruction fine-tuning.,simple,1 Introduction
+What does the guide explain about Lamini memory tuning,moderate,6 Fine-Tuning
+"How do fine-tuning for audio and speech processing and grid search for hyperparameters interact in a full fine-tuning workflow, and what failure modes arise when they are combined?",difficult,10+ Advanced Topics | 5 Training Setup
+How does loss functions compare to mini-batch gradient descent?,moderate,5 Training Setup | 5 Training Setup
+what is the difference between response monitoring and webllm,moderate,9 Monitoring | 8 Deployment
+"Compare handling data imbalance and training environment setup in terms of compute cost, accuracy and operational complexity, and recommend which to use for a low-resource team.",difficult,3 Data Preparation | 2 Seven Stage Pipeline
+"Briefly, what do we mean by the AdaGrad optimiser?",simple,5 Training Setup
+Give a one-line definition of quantised LLMs.,simple,8 Deployment
+Can you define dataset preparation briefly?,simple,2 Seven Stage Pipeline
+How does the AdaGrad optimiser fit into the overall LLM fine-tuning pipeline?,moderate,5 Training Setup
+What best practices does the guide recommend regarding model initialisation?,moderate,2 Seven Stage Pipeline
+Can you define supervised fine-tuning (SFT) briefly?,simple,1 Introduction
+the AdaDelta optimiser - what is it,simple,5 Training Setup
+Synthesise what the guide says about Llama Guard and pre-trained language models into a decision framework for choosing a fine-tuning approach.,difficult,7 Evaluation | 1 Introduction
+"Critically evaluate whether unsupervised fine-tuning can replace the AdaGrad optimiser, citing the strengths and weaknesses of each and when each fails.",difficult,1 Introduction | 5 Training Setup
+When would you choose ShieldGemma over the challenges of serving RAG?,moderate,7 Evaluation | 1 Introduction
+"Design an end-to-end strategy that integrates quantised LLMs with unsupervised fine-tuning for a production LLM, covering data, training, evaluation and monitoring.",difficult,8 Deployment | 1 Introduction
+What does the guide explain about the challenges of serving RAG?,moderate,1 Introduction
+"How does the choice of dataset splitting change the requirements for the traditional RAG pipeline, and how would you validate that the combination generalises?",difficult,3 Data Preparation | 1 Introduction
+Summarise the role of Lamini memory tuning in fine-tuning.,moderate,6 Fine-Tuning
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering supervised fine-tuning (SFT) and data preprocessing and formatting, what would you change in the pipeline and how would you verify the fix?",difficult,1 Introduction | 3 Data Preparation
+Name the main idea behind inference optimisation,simple,8 Deployment
+How does scalability challenges in fine-tuning compare to the seven-stage fine-tuning pipeline?,moderate,10+ Advanced Topics | 2 Seven Stage Pipeline
+"If hyperparameter tuning degrades model quality, how would you diagnose whether the cause lies in pre-training, and what experiments would you run?",difficult,5 Training Setup | 1 Introduction
+When would you choose overfitting over Odds-Ratio Preference Optimization (ORPO)?,moderate,7 Evaluation | 6 Fine-Tuning
+Synthesise what the guide says about QLoRA and inference optimisation into a decision framework for choosing a fine-tuning approach.,difficult,6 Fine-Tuning | 8 Deployment
+"Briefly, what do we mean by pre-trained language models?",simple,1 Introduction
+"if direct preference optimisation (dpo) degrades model quality, how would you diagnose whether the cause lies in noisy gradients, and what experiments would you run",difficult,6 Fine-Tuning | 7 Evaluation
+"How does the choice of Half Fine-Tuning (HFT) change the requirements for accountability in LLM fine-tuning, and how would you validate that the combination generalises?",difficult,6 Fine-Tuning | 10+ Advanced Topics
+What are the main benefits and limitations of large language models?,moderate,1 Introduction
+"We must align a model to human preferences while keeping inference cheap. Explain how QLoRA and statistical language models would each contribute, and where they conflict.",difficult,6 Fine-Tuning | 1 Introduction
+Explain WildGuard in the context of fine-tuning LLMs.,moderate,7 Evaluation
+what is ShieldGemma,simple,7 Evaluation
+What common mistakes occur with parameter-efficient fine-tuning (PEFT) and how can they be avoided?,moderate,6 Fine-Tuning
+What challenges should I expect when dealing with the AdamW optimiser?,moderate,5 Training Setup
+"Our fine-tuned model overfits and also produces unsafe outputs. Considering statistical language models and the AdamW optimiser, what would you change in the pipeline and how would you verify the fix?",difficult,1 Introduction | 5 Training Setup
+"Should we use RAG or fine-tuning for a fast-changing knowledge base? Reason through the role of evaluation and validation and alerting mechanisms and thresholds and the cost, latency and maintenance trade-offs.",difficult,2 Seven Stage Pipeline | 9 Monitoring
+In which chapter of the guide is data augmentation discussed?,simple,3 Data Preparation
+What does the guide say response monitoring is?,simple,9 Monitoring
+What is the purpose of neural language models?,simple,1 Introduction
+What are the main benefits and limitations of alerting mechanisms and thresholds?,moderate,9 Monitoring
+"Briefly, what do we mean by Mixture of Agents (MoA)?",simple,6 Fine-Tuning
+In which chapter of the guide is ShieldGemma discussed,simple,7 Evaluation
+"Critically evaluate whether WebLLM can replace quantised LLMs, citing the strengths and weaknesses of each and when each fails.",difficult,8 Deployment | 8 Deployment
+What does the guide say random search for hyperparameters is?,simple,5 Training Setup
+how are the traditional RAG pipeline and Bayesian optimisation for hyperparameters related?,moderate,1 Introduction | 5 Training Setup
+Synthesise what the guide says about tools and libraries for model initialisation and validation loops into a decision framework for choosing a fine-tuning approach.,difficult,4 Model Initialisation | 7 Evaluation
+Summarise the role of Odds-Ratio Preference Optimization (ORPO) in fine-tuning.,moderate,6 Fine-Tuning
+how are the RMSprop optimiser and DoRA (weight-decomposed low-rank adaptation) related?,moderate,5 Training Setup | 6 Fine-Tuning
+What best practices does the guide recommend regarding alerting mechanisms and thresholds,moderate,9 Monitoring
+"Critically evaluate whether gradient descent can replace the traditional RAG pipeline, citing the strengths and weaknesses of each and when each fails",difficult,5 Training Setup | 1 Introduction
+what is dataset splitting,simple,3 Data Preparation
+When would you choose the AdaGrad optimiser over challenges in model initialisation?,moderate,5 Training Setup | 4 Model Initialisation
+What does the guide say safety benchmarks for fine-tuned LLMs is?,simple,7 Evaluation
+what common mistakes occur with lamini memory tuning and how can they be avoided,moderate,6 Fine-Tuning
+"If training loss curves degrades model quality, how would you diagnose whether the cause lies in model deployment, and what experiments would you run?",difficult,7 Evaluation | 2 Seven Stage Pipeline
+"Briefly, what do we mean by fine-tuning for audio and speech processing?",simple,10+ Advanced Topics
+Summarise the role of stochastic gradient descent (SGD) in fine-tuning.,moderate,5 Training Setup
+Give a one-line definition of Direct Preference Optimisation (DPO).,simple,6 Fine-Tuning
+what are the main benefits and limitations of the adamw optimiser,moderate,5 Training Setup
+What is DoRA (weight-decomposed low-rank adaptation)?,simple,6 Fine-Tuning
+What is the purpose of Half Fine-Tuning (HFT)?,simple,6 Fine-Tuning
+How does the Mixtral 8x7B architecture fit into the overall LLM fine-tuning pipeline?,moderate,6 Fine-Tuning
+in which chapter of the guide is handling data imbalance discussed,simple,3 Data Preparation
+How does tools and libraries for model initialisation compare to Low-Rank Adaptation (LoRA)?,moderate,4 Model Initialisation | 6 Fine-Tuning
+In which chapter of the guide is the seven-stage fine-tuning pipeline discussed?,simple,2 Seven Stage Pipeline
+"Analyse the trade-offs between Mixture of Agents (MoA) and advanced LLM evaluation metrics when fine-tuning under a tight GPU memory budget, and justify a recommendation",difficult,6 Fine-Tuning | 7 Evaluation
+"Briefly, what do we mean by on-premises GPU-based LLM deployment?",simple,8 Deployment
+multimodal llms - what is it,simple,10+ Advanced Topics
+Is statistical language models covered in the fine-tuning guide?,simple,1 Introduction
+"We must align a model to human preferences while keeping inference cheap. Explain how Retrieval Augmented Generation (RAG) and adapters would each contribute, and where they conflict.",difficult,1 Introduction | 6 Fine-Tuning
+How does parameter-efficient fine-tuning (PEFT) compare to privacy in LLM fine-tuning?,moderate,6 Fine-Tuning | 10+ Advanced Topics
+What is Retrieval Augmented Generation (RAG)?,simple,1 Introduction
